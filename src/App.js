@@ -1,18 +1,36 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import styled from 'styled-components';
 
 class App extends Component {
+
+  shouldComponentUpdate() {
+    return false;
+  }
+
   render() {
+
+    const Titlebar = styled.section`
+      height: 22px;
+      -webkit-app-region: drag;
+    `;
+    const Title = styled.p`
+      padding-top: 5px;
+      font-size: 12px;
+      color: #4b4669;
+      margin: 0;
+      text-align: center;
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -webkit-font-smoothing: antialiased;
+    `;
+
     return (
       <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
-        </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <Titlebar>
+          <Title>
+            Convert images to webp
+          </Title>
+        </Titlebar>
       </div>
     );
   }
