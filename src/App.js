@@ -1,5 +1,10 @@
 import React, { Component } from 'react';
-import styled from 'styled-components';
+import Dropzone from 'react-dropzone'
+
+import Title from './components/Title';
+import Button from './components/Button';
+import { Widget, WidgetHeader, WidgetBody, WidgetFooter } from './components/Widget';
+import { DropzoneTitle, DropzoneSubtitle, DropzoneStyles } from './components/Dropzone';
 
 class App extends Component {
 
@@ -7,32 +12,54 @@ class App extends Component {
     return false;
   }
 
+  onDrop(acceptedFiles) {
+    acceptedFiles.forEach(file => {
+        console.log(file.path);
+    });
+  }
+
   render() {
 
-    const Titlebar = styled.section`
-      height: 22px;
-      -webkit-app-region: drag;
-    `;
-    // color: #4b4669;
-    const Title = styled.p`
-      padding-top: 5px;
-      font-size: 12px;
-      color: rgba(255, 255, 255, 0.3);
-      margin: 0;
-      text-align: center;
-      -webkit-touch-callout: none;
-      -webkit-user-select: none;
-      -webkit-font-smoothing: antialiased;
-    `;
+    let dropzoneRef;
 
     return (
-      <div className="App">
-        <Titlebar>
-          <Title>
-            Convert images to webp
-          </Title>
-        </Titlebar>
-      </div>
+      <Widget>
+        <WidgetHeader>
+            <Title>
+              Convert images to webp
+            </Title>
+        </WidgetHeader>
+        <WidgetBody>
+          <Dropzone
+            onDrop={this.onDrop.bind(this)}
+            ref={(node) => { dropzoneRef = node; }}
+            accept="image/jpeg, image/png"
+            style={ DropzoneStyles.dropzone }
+            activeStyle={ DropzoneStyles.active }
+            rejectStyle={ DropzoneStyles.reject }
+          >
+            {({ isDragActive, isDragReject, acceptedFiles, rejectedFiles }) => {
+              if (isDragActive) return (
+                <DropzoneTitle>Drop file(s) to start conversion</DropzoneTitle>
+              );
+              if (isDragReject) return (
+                <DropzoneTitle>Only .png and .jpg files allowed</DropzoneTitle>
+              );
+              return (
+                <div>
+                  <DropzoneTitle>Drop files here to convert</DropzoneTitle>
+                  <DropzoneSubtitle>Only .jpg & .png files are allowed</DropzoneSubtitle>
+                </div>
+              );
+            }}
+          </Dropzone>
+        </WidgetBody>
+        <WidgetFooter>
+          <Button onClick={() => { dropzoneRef.open() }} >
+            Select Files
+          </Button>
+        </WidgetFooter>
+      </Widget>
     );
   }
 }

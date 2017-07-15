@@ -12,6 +12,7 @@
     "electron-reload": "^1.2.1",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
+    "react-dropzone": "^3.13.3",
     "styled-components": "^2.1.1"
   },
   "scripts": {
