@@ -13,10 +13,11 @@ class App extends Component {
       height: 22px;
       -webkit-app-region: drag;
     `;
+    // color: #4b4669;
     const Title = styled.p`
       padding-top: 5px;
       font-size: 12px;
-      color: #4b4669;
+      color: rgba(255, 255, 255, 0.3);
       margin: 0;
       text-align: center;
       -webkit-touch-callout: none;

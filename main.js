@@ -20,14 +20,17 @@ let mainWindow
 function createWindow () {
   // Create the browser window.
   mainWindow = new BrowserWindow({
+    title: 'Webpfy',
     width: 300,
     height: 420,
     // width: 800,
     // height: 600,
     titleBarStyle: 'hidden',
+    maximizable: false,
     resizable: false,
     acceptFirstMouse: true,
     frame: false,
+    vibrancy: 'dark'
   })
 
   const urlFormat = {
