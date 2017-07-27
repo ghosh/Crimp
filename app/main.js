@@ -1,6 +1,8 @@
-const { app, BrowserWindow } = require('electron')
-const path = require('path')
-const url = require('url')
+import { app, BrowserWindow } from 'electron'
+import path from 'path'
+import url from 'url'
+
+import MenuBuilder from './menu';
 
 require('electron-reload')(__dirname, {
   electron: path.join(__dirname, 'node_modules', '.bin', 'electron')
@@ -36,6 +38,9 @@ const createWindow  = () => {
   // mainWindow.webContents.openDevTools()
 
   mainWindow.on('closed', () => mainWindow = null )
+
+  const menuBuilder = new MenuBuilder(mainWindow)
+  menuBuilder.buildMenu()
 }
 
 
