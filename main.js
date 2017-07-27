@@ -18,7 +18,8 @@ function createWindow () {
     resizable: false,
     acceptFirstMouse: true,
     frame: false,
-    vibrancy: 'dark'
+    vibrancy: 'dark',
+    icon: path.join(__dirname, '/assets/Webpfy.icns')
   })
 
   const urlFormat = {
@@ -29,10 +30,12 @@ function createWindow () {
 
   const startUrl = process.env.ELECTRON_START_URL || url.format(urlFormat);
 
+  console.log(mainWindow);
+
   mainWindow.loadURL(startUrl);
 
   // Open the DevTools.
-  mainWindow.webContents.openDevTools()
+  // mainWindow.webContents.openDevTools()
 
 
   mainWindow.on('closed', function () {
