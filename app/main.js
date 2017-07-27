@@ -8,7 +8,7 @@ require('electron-reload')(__dirname, {
 
 let mainWindow;
 
-function createWindow () {
+const createWindow  = () => {
   mainWindow = new BrowserWindow({
     title: 'Webpfy',
     width: 300,
@@ -30,31 +30,22 @@ function createWindow () {
 
   const startUrl = process.env.ELECTRON_START_URL || url.format(urlFormat);
 
-  console.log(mainWindow);
-
   mainWindow.loadURL(startUrl);
 
   // Open the DevTools.
   // mainWindow.webContents.openDevTools()
 
-
-  mainWindow.on('closed', function () {
-    mainWindow = null
-  })
+  mainWindow.on('closed', () => mainWindow = null )
 }
 
 
 app.on('ready', createWindow)
 
 
-app.on('window-all-closed', function () {
-  if (process.platform !== 'darwin') {
-    app.quit()
-  }
+app.on('window-all-closed', () => {
+  if (process.platform !== 'darwin') app.quit()
 })
 
-app.on('activate', function () {
-  if (mainWindow === null) {
-    createWindow()
-  }
+app.on('activate', () => {
+  if (mainWindow === null) createWindow()
 })
