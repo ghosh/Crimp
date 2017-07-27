@@ -34,9 +34,6 @@ const createWindow  = () => {
 
   mainWindow.loadURL(startUrl);
 
-  // Open the DevTools.
-  // mainWindow.webContents.openDevTools()
-
   mainWindow.on('closed', () => mainWindow = null )
 
   const menuBuilder = new MenuBuilder(mainWindow)
