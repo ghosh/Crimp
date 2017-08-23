@@ -55,7 +55,7 @@ class App extends Component {
           </Dropzone>
         </WidgetBody>
         <WidgetFooter>
-          <Button onClick={() => { dropzoneRef.open() }} >
+          <Button onClick={() => dropzoneRef.open()} >
             Select Files
           </Button>
         </WidgetFooter>

@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from "prop-types";
 import styled from 'styled-components';
 
 const StyledButton = styled.button`
@@ -16,10 +17,20 @@ const StyledButton = styled.button`
   &:hover { background: #bd2354; }
 `;
 
-const Button = ({ children }) => (
-  <StyledButton>
+const Button = ({ children, onClick }) => (
+  <StyledButton onClick={ onClick } >
     { children }
   </StyledButton>
 )
+
+Button.propTypes = {
+  children: PropTypes.string,
+  onClick: PropTypes.func
+};
+
+Button.defaultProps = {
+  children: "Button",
+  onClick: () => {}
+};
 
 export default Button;

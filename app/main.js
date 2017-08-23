@@ -20,7 +20,7 @@ const createWindow  = () => {
     resizable: false,
     acceptFirstMouse: true,
     frame: false,
-    vibrancy: 'dark',
+    // vibrancy: 'dark',
     icon: path.join(__dirname, '/assets/Webpfy.icns')
   })
 
@@ -33,7 +33,6 @@ const createWindow  = () => {
   const startUrl = process.env.ELECTRON_START_URL || url.format(urlFormat);
 
   mainWindow.loadURL(startUrl);
-
   mainWindow.on('closed', () => mainWindow = null )
 
   const menuBuilder = new MenuBuilder(mainWindow)
