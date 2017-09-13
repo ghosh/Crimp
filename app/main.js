@@ -1,6 +1,11 @@
 import { app, BrowserWindow, ipcMain } from 'electron'
 import path from 'path'
 import url from 'url'
+import fs from 'fs';
+
+import imagemin from 'imagemin';
+import imageminJpegtran from 'imagemin-jpegtran';
+import imageminPngquant from 'imagemin-pngquant';
 
 import MenuBuilder from './menu';
 
@@ -56,4 +61,33 @@ app.on('activate', () => {
   if (mainWindow === null) createWindow()
 })
 
-ipcMain.on('file:submit', (event, path) => console.log('File received: ', path));
+ipcMain.on('file:submit', (event, path) => {
+  console.log('File received: ', path)
+
+
+const buff = fs.readFile(path, function (err, data) {
+  if (err) throw err;
+  console.log('Data: ', data);
+
+  imagemin.buffer(data, {
+      plugins: [
+        imageminJpegtran(),
+        imageminPngquant({quality: '65-80'})
+      ]
+    })
+    .then(buffer => {
+      console.log('Minimized Buffer:', buffer)
+      var stream = fs.createWriteStream(path);
+      stream.write(buffer);
+      stream.end();
+      stream.on('finish', () => {
+        console.log("The file was saved!");
+      });
+      stream.on('error', (error) => {
+        console.log('Error', error);
+      });
+    })
+    .catch(error => console.log('Error', error));
+  });
+
+});
