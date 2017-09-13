@@ -1,20 +1,48 @@
 import React, { Component } from 'react';
-import Dropzone from 'react-dropzone'
+import Dropzone from 'react-dropzone';
 
 import Title from './components/Title';
 import Button from './components/Button';
+import Busy from './components/Busy';
 import { Widget, WidgetHeader, WidgetBody, WidgetFooter } from './components/Widget';
 import { DropzoneTitle, DropzoneSubtitle, DropzoneStyles } from './components/Dropzone';
 
+// Cannot import ipcRenderer directly without ejecting
+const electron = window.require('electron');
+const ipcRenderer  = electron.ipcRenderer;
+
 class App extends Component {
 
+  constructor(props, context) {
+    super(props, context);
+
+    this.onDrop = this.onDrop.bind(this);
+    this.onConversion = this.onConversion.bind(this);
+
+    this.state = { isOptimizing: false };
+  }
+
+  componentDidMount() {
+    ipcRenderer.on('file:submit', this.onConversion);
+  }
+
+  componentWillUnmount() {
+    ipcRenderer.removeListener('file:submit', this.onConversion);
+  }
+
   shouldComponentUpdate() {
-    return false;
+    return true;
+  }
+
+  onConversion(event, args) {
+    console.log('Done');
+    console.log('Send Notification');
   }
 
   onDrop(acceptedFiles) {
     acceptedFiles.forEach(file => {
-        console.log(file.path);
+      console.log(file.path);
+      ipcRenderer.send('file:submit', file.path);
     });
   }
 
@@ -30,29 +58,35 @@ class App extends Component {
             </Title>
         </WidgetHeader>
         <WidgetBody>
-          <Dropzone
-            onDrop={this.onDrop.bind(this)}
-            ref={(node) => { dropzoneRef = node; }}
-            accept="image/jpeg, image/png"
-            style={ DropzoneStyles.dropzone }
-            activeStyle={ DropzoneStyles.active }
-            rejectStyle={ DropzoneStyles.reject }
-          >
-            {({ isDragActive, isDragReject, acceptedFiles, rejectedFiles }) => {
-              if (isDragActive) return (
-                <DropzoneTitle>Drop file(s) to start conversion</DropzoneTitle>
-              );
-              if (isDragReject) return (
-                <DropzoneTitle>Only .png and .jpg files allowed</DropzoneTitle>
-              );
-              return (
-                <div>
-                  <DropzoneTitle>Drop files here to convert</DropzoneTitle>
-                  <DropzoneSubtitle>Only .jpg & .png files are allowed</DropzoneSubtitle>
-                </div>
-              );
-            }}
-          </Dropzone>
+          {this.state.isOptimizing ? (
+            <Busy>
+              <p>Converting...</p>
+            </Busy>
+          ) : (
+            <Dropzone
+              onDrop={this.onDrop}
+              ref={(node) => { dropzoneRef = node; }}
+              accept="image/jpeg, image/png"
+              style={ DropzoneStyles.dropzone }
+              activeStyle={ DropzoneStyles.active }
+              rejectStyle={ DropzoneStyles.reject }
+            >
+              {({ isDragActive, isDragReject, acceptedFiles, rejectedFiles }) => {
+                if (isDragActive) return (
+                  <DropzoneTitle>Drop file(s) to start conversion</DropzoneTitle>
+                );
+                if (isDragReject) return (
+                  <DropzoneTitle>Only .png and .jpg files allowed</DropzoneTitle>
+                );
+                return (
+                  <div>
+                    <DropzoneTitle>Drop files here to convert</DropzoneTitle>
+                    <DropzoneSubtitle>Only .jpg & .png files are allowed</DropzoneSubtitle>
+                  </div>
+                );
+              }}
+            </Dropzone>
+          )}
         </WidgetBody>
         <WidgetFooter>
           <Button onClick={() => dropzoneRef.open()} >

@@ -1,4 +1,4 @@
-import { app, BrowserWindow } from 'electron'
+import { app, BrowserWindow, ipcMain } from 'electron'
 import path from 'path'
 import url from 'url'
 
@@ -33,15 +33,20 @@ const createWindow  = () => {
   const startUrl = process.env.ELECTRON_START_URL || url.format(urlFormat);
 
   mainWindow.loadURL(startUrl);
-  mainWindow.on('closed', () => mainWindow = null )
+  mainWindow.on('closed', () => mainWindow = null );
 
-  const menuBuilder = new MenuBuilder(mainWindow)
-  menuBuilder.buildMenu()
+  const menuBuilder = new MenuBuilder(mainWindow);
+  menuBuilder.buildMenu();
+
+  // Make sure you have the FULL path here or it won't work
+  BrowserWindow.addDevToolsExtension(
+    '/Users/ghosh/Library/Application Support/Google/Chrome/' +
+    'default/Extensions/fmkadmapgofadopljbjfkapdkoienihi/2.5.0_0'
+  );
+
 }
 
-
 app.on('ready', createWindow)
-
 
 app.on('window-all-closed', () => {
   if (process.platform !== 'darwin') app.quit()
@@ -50,3 +55,5 @@ app.on('window-all-closed', () => {
 app.on('activate', () => {
   if (mainWindow === null) createWindow()
 })
+
+ipcMain.on('file:submit', (event, path) => console.log('File received: ', path));

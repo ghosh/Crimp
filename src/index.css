@@ -3,12 +3,58 @@ body {
   padding: 0;
   font-family: sans-serif;
   // background-color: rgba(0,0,0,0.4);
-  background-color: #120c32;
+  // background-color: #120c32;
+  background-color: #141e2a;
+  // background-color: rgba(20,30,42,0.1);
   // background-color: rgba(35, 35, 35, 0.8);
 
 // background: #cc2b5e;  /* fallback for old browsers */
 // background: -webkit-linear-gradient(to top, #753a88, #cc2b5e);   Chrome 10-25, Safari 5.1-6
 // background: linear-gradient(to top, #753a88, #cc2b5e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 
 
+
+
+
+.loader {
+  // position: absolute;
+  // top: 50%;
+  // left: 40%;
+  // margin-left: 10%;
+  // transform: translate3d(-50%, -50%, 0);
+}
+.dot {
+  width: 18px;
+  height: 18px;
+  background: #3ac;
+  border-radius: 100%;
+  display: inline-block;
+  animation: slide 1s infinite;
+}
+.dot:nth-child(1) {
+  animation-delay: 0.1s;
+  background: #32aacc;
+}
+.dot:nth-child(2) {
+  animation-delay: 0.2s;
+  background: #64aacc;
+}
+.dot:nth-child(3) {
+  animation-delay: 0.3s;
+  background: #96aacc;
+}
+.dot:nth-child(4) {
+  animation-delay: 0.4s;
+  background: #c8aacc;
+}
+.dot:nth-child(5) {
+  animation-delay: 0.5s;
+  background: #faaacc;
+}
+
+@keyframes slide {
+  0% { transform: scale(1); }
+  50% { transform: scale(2); opacity: 0.3;  }
+  100% { transform: scale(1); }
 }
