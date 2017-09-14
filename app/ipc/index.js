@@ -6,9 +6,14 @@ import imagemin from 'imagemin';
 import prettyBytes from 'pretty-bytes';
 import imageminJpegtran from 'imagemin-jpegtran';
 import imageminPngquant from 'imagemin-pngquant';
+import imageminGifsicle from 'imagemin-gifsicle';
 
 
-const imageMinPlugins = [ imageminJpegtran(), imageminPngquant({quality: '65-80'})];
+const imageMinPlugins = [
+  imageminJpegtran(),
+  imageminPngquant({quality: '65-80'}),
+  imageminGifsicle({optimizationLevel: 2})
+];
 
 export default class ipcHandler {
 
