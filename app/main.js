@@ -5,9 +5,11 @@ import url from 'url'
 import MenuBuilder from './menu';
 import IpcHandler from './ipc';
 
+
+
 require('electron-reload')(__dirname, {
-  electron: path.join(__dirname, 'node_modules', '.bin', 'electron')
-});
+  electron: require('${__dirname}/../../node_modules/electron')
+})
 
 let mainWindow;
 
@@ -60,4 +62,4 @@ app.on('activate', () => {
 
 
 const ipcHandler = new IpcHandler();
-ipcMain.on('file:submit', ipcHandler.optimizeFiles);
+ipcMain.on('files:submit', ipcHandler.optimize);

@@ -23,29 +23,25 @@ class App extends Component {
   }
 
   componentDidMount() {
-    ipcRenderer.on('file:optimized', this.onConversion);
+    ipcRenderer.on('files:optimized', this.onConversion);
   }
 
   componentWillUnmount() {
-    ipcRenderer.removeListener('file:optimized', this.onConversion);
+    ipcRenderer.removeListener('files:optimized', this.onConversion);
   }
 
   shouldComponentUpdate() {
     return true;
   }
 
-  onConversion(event, status, path) {
-    console.log('Done', event, status);
-    console.log('Send Notification');
+  onConversion(event, status) {
     this.setState({ isOptimizing: false });
   }
 
   onDrop(acceptedFiles) {
-    acceptedFiles.forEach(file => {
-      console.log(file.path);
-      ipcRenderer.send('file:submit', file.path);
-      this.setState({ isOptimizing: true });
-    });
+    const filePaths = acceptedFiles.map( file => file.path );
+    ipcRenderer.send('files:submit', filePaths);
+    this.setState({ isOptimizing: true });
   }
 
   render() {
