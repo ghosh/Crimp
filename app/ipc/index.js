@@ -1,9 +1,11 @@
+import { Notification } from 'electron';
+
+import plur from 'plur';
 import fs from 'fs-extra';
 import imagemin from 'imagemin';
+import prettyBytes from 'pretty-bytes';
 import imageminJpegtran from 'imagemin-jpegtran';
 import imageminPngquant from 'imagemin-pngquant';
-
-import prettyBytes from 'pretty-bytes';
 
 
 const imageMinPlugins = [ imageminJpegtran(), imageminPngquant({quality: '65-80'})];
@@ -11,23 +13,54 @@ const imageMinPlugins = [ imageminJpegtran(), imageminPngquant({quality: '65-80'
 export default class ipcHandler {
 
   constructor(props, context) {
+    this.notify = this.notify.bind(this);
     this.optimize = this.optimize.bind(this);
+    this.msToHuman = this.msToHuman.bind(this);
+    this.processData = this.processData.bind(this);
     this.optimizeFile = this.optimizeFile.bind(this);
-    this.millisToMinutesAndSeconds = this.millisToMinutesAndSeconds.bind(this);
   }
 
-  async millisToMinutesAndSeconds(millis) {
-    const minutes = Math.floor(millis / 60000);
-    const seconds = ((millis % 60000) / 1000).toFixed(0);
-    return minutes + "." + (seconds < 10 ? '0' : '') + seconds;
+
+  async msToHuman(ms) {
+    const hours = Math.floor(ms / 3600000); // 1 Hour = 36000 Milliseconds
+    const minutes = Math.floor((ms % 3600000) / 60000); // 1 Minutes = 60000 Milliseconds
+    const seconds = Math.floor(((ms % 360000) % 60000) / 1000); // 1 Second = 1000 Milliseconds
+
+    if ( seconds == '0' ) return `${ms}ms`;
+    return (minutes > 60000) ? `${minutes}m ${seconds}s` : `${seconds} seconds`;
   }
+
+
+  async processData(totalOriginalSize, totalOptimizedSize) {
+    const originalSize = totalOriginalSize.reduce( (acc, num) => acc + num );
+    const optimizedSize = totalOptimizedSize.reduce( (acc, num) => acc + num );
+    const saved = originalSize - optimizedSize;
+    const percent = originalSize > 0 ? (saved / originalSize) * 100 : 0;
+    const zeroSum = saved > 0 ? false : true;
+
+    const deltaPerct = percent.toFixed(1).replace(/\.0$/, '');
+    const deltaBytes = prettyBytes(saved);
+
+    return { deltaPerct, deltaBytes };
+  }
+
+
+  async notify({numFiles, timeTaken, bytesSaved, perctSaved, imagePath}) {
+
+    const notification = new Notification({
+      title: `${numFiles} ${plur('file', numFiles)} optimizated`,
+      subtitle: `Saved ${bytesSaved}, thats ${perctSaved}% ↓ in size`,
+      body: `Processed in ${timeTaken}`,
+      icon: imagePath
+    })
+    notification.show();
+  }
+
 
   async optimize(event, files) {
-
+    const startTime = new Date();
     let totalOriginalSize = [];
     let totalOptimizedSize = [];
-
-    const startTime = new Date();
 
     // Runs file optimizations in parallel
     // Stackoverflow:- https://goo.gl/wGdkog
@@ -39,23 +72,21 @@ export default class ipcHandler {
       }
     }));
 
-    const originalSize = totalOriginalSize.reduce( (acc, num) => acc + num );
-    const optimizedSize = totalOptimizedSize.reduce( (acc, num) => acc + num );
-    const saved = originalSize - optimizedSize;
-    const percent = originalSize > 0 ? (saved / originalSize) * 100 : 0;
-    const zeroSum = saved > 0 ? false : true;
+    const { deltaPerct, deltaBytes } = await this.processData(totalOriginalSize, totalOptimizedSize);
+    const deltaTime = await this.msToHuman( new Date() - startTime );
 
-    const endTime = new Date() - startTime;
+    this.notify({
+      numFiles: files.length,
+      timeTaken: deltaTime,
+      bytesSaved: deltaBytes,
+      perctSaved: deltaPerct,
+      imagePath: files[0]
+    })
 
-    const deltaPerct = percent.toFixed(1).replace(/\.0$/, '');
-    const deltaTime = await this.millisToMinutesAndSeconds(endTime);
-    const deltaBytes = prettyBytes(saved);
-
-    console.log(`✔ Saved ${deltaBytes}. ${deltaPerct}% ↓ in ${deltaTime}`);
-
+    console.log(`Saved ${deltaBytes}, thats ${deltaPerct}% ↓ in size`);
     event.sender.send('files:optimized', true);
-
   }
+
 
   /**
    * Optimizes individual image files and returns
