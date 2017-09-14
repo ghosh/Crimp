@@ -62,32 +62,28 @@ app.on('activate', () => {
 })
 
 ipcMain.on('file:submit', (event, path) => {
-  console.log('File received: ', path)
 
-
-const buff = fs.readFile(path, function (err, data) {
-  if (err) throw err;
-  console.log('Data: ', data);
-
-  imagemin.buffer(data, {
+  const buff = fs.readFile(path, function (err, data) {
+    if (err) throw err;
+    imagemin.buffer(data, {
       plugins: [
         imageminJpegtran(),
         imageminPngquant({quality: '65-80'})
       ]
     })
     .then(buffer => {
-      console.log('Minimized Buffer:', buffer)
-      var stream = fs.createWriteStream(path);
-      stream.write(buffer);
-      stream.end();
-      stream.on('finish', () => {
+      fs.writeFile(path, buffer, function(err) {
+        if (err) { return console.log(err); }
         console.log("The file was saved!");
-      });
-      stream.on('error', (error) => {
-        console.log('Error', error);
+        mainWindow.webContents.send('file:optimized', true, path);
+        return true;
       });
     })
-    .catch(error => console.log('Error', error));
+    .catch(error => {
+      console.log('Error', error);
+      mainWindow.webContents.send('file:optimized', false);
+      return false;
+    });
   });
 
 });
