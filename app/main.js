@@ -1,13 +1,9 @@
 import { app, BrowserWindow, ipcMain } from 'electron'
 import path from 'path'
 import url from 'url'
-import fs from 'fs';
-
-import imagemin from 'imagemin';
-import imageminJpegtran from 'imagemin-jpegtran';
-import imageminPngquant from 'imagemin-pngquant';
 
 import MenuBuilder from './menu';
+import IpcHandler from './ipc';
 
 require('electron-reload')(__dirname, {
   electron: path.join(__dirname, 'node_modules', '.bin', 'electron')
@@ -51,6 +47,7 @@ const createWindow  = () => {
 
 }
 
+
 app.on('ready', createWindow)
 
 app.on('window-all-closed', () => {
@@ -61,29 +58,6 @@ app.on('activate', () => {
   if (mainWindow === null) createWindow()
 })
 
-ipcMain.on('file:submit', (event, path) => {
 
-  const buff = fs.readFile(path, function (err, data) {
-    if (err) throw err;
-    imagemin.buffer(data, {
-      plugins: [
-        imageminJpegtran(),
-        imageminPngquant({quality: '65-80'})
-      ]
-    })
-    .then(buffer => {
-      fs.writeFile(path, buffer, function(err) {
-        if (err) { return console.log(err); }
-        console.log("The file was saved!");
-        mainWindow.webContents.send('file:optimized', true, path);
-        return true;
-      });
-    })
-    .catch(error => {
-      console.log('Error', error);
-      mainWindow.webContents.send('file:optimized', false);
-      return false;
-    });
-  });
-
-});
+const ipcHandler = new IpcHandler();
+ipcMain.on('file:submit', ipcHandler.optimizeFiles);
