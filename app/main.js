@@ -44,7 +44,7 @@ const createWindow  = () => {
   // Make sure you have the FULL path here or it won't work
   BrowserWindow.addDevToolsExtension(
     '/Users/ghosh/Library/Application Support/Google/Chrome/' +
-    'default/Extensions/fmkadmapgofadopljbjfkapdkoienihi/2.5.0_0'
+    'default/Extensions/fmkadmapgofadopljbjfkapdkoienihi/2.5.1_0'
   );
 
 }
