@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
+    "concurrently": "^3.5.0",
     "react-scripts": "1.0.10"
   },
   "main": "app/main.js",
@@ -26,6 +27,7 @@
   },
   "scripts": {
     "start": "BROWSER=null react-scripts start",
+    "dev": "concurrently \"yarn start\" \"yarn electron-dev\"",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
