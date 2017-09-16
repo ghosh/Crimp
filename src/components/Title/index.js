@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 const StyledTitle = styled.p`
-  padding-top: 6px;
+  padding-top: 4px;
   font-size: 12px;
   color: rgba(255, 255, 255, 0.4);
   margin: 0;
