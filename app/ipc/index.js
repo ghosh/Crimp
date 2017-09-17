@@ -54,7 +54,7 @@ export default class ipcHandler {
 
     const notification = new Notification({
       title: `${numFiles} ${plur('file', numFiles)} optimizated`,
-      subtitle: `Saved ${bytesSaved}, thats ${perctSaved}% ↓ in size`,
+      subtitle: `Saved ${bytesSaved}, thats a ${perctSaved}% ↓ in size`,
       body: `Processed in ${timeTaken}`,
       icon: imagePath
     })
@@ -88,7 +88,7 @@ export default class ipcHandler {
       imagePath: files[0]
     })
 
-    console.log(`Saved ${deltaBytes}, thats ${deltaPerct}% ↓ in size`);
+    console.log(`Saved ${deltaBytes}, thats a ${deltaPerct}% ↓ in size`);
     event.sender.send('files:optimized', true);
   }
 

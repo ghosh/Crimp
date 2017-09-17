@@ -15,12 +15,5 @@ export default {
     click: () => {
       BrowserWindow.getFocusedWindow().toggleDevTools();
     },
-  },
-  {
-    label: 'Quit',
-    accelerator: 'CmdOrCtrl+Q',
-    click: () => {
-      app.quit();
-    },
   }],
 };
