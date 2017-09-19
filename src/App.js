@@ -52,7 +52,7 @@ class App extends Component {
       <Widget>
         <WidgetHeader>
             <Title>
-              Convert images to webp
+              Drop files to optimize
             </Title>
         </WidgetHeader>
         <WidgetBody>
@@ -71,15 +71,15 @@ class App extends Component {
             >
               {({ isDragActive, isDragReject, acceptedFiles, rejectedFiles }) => {
                 if (isDragActive) return (
-                  <DropzoneTitle>Drop file(s) to start conversion</DropzoneTitle>
+                  <DropzoneTitle>Drop file(s) to start optimization</DropzoneTitle>
                 );
                 if (isDragReject) return (
-                  <DropzoneTitle>Only .png and .jpg files allowed</DropzoneTitle>
+                  <DropzoneTitle>Only .png, .jpg, .gif and .svg files allowed</DropzoneTitle>
                 );
                 return (
                   <div>
                     <DropzoneTitle>Drop files here to convert</DropzoneTitle>
-                    <DropzoneSubtitle>Only .jpg & .png files are allowed</DropzoneSubtitle>
+                    <DropzoneSubtitle>Accepts .jpg, .png, .gif and .svg</DropzoneSubtitle>
                   </div>
                 );
               }}

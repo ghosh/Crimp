@@ -3,7 +3,7 @@ import path from 'path'
 import url from 'url'
 
 import MenuBuilder from './menu';
-import IpcHandler from './ipc';
+import FilesHandler from './ipc';
 
 
 
@@ -61,5 +61,5 @@ app.on('activate', () => {
 })
 
 
-const ipcHandler = new IpcHandler();
-ipcMain.on('files:submit', ipcHandler.optimize);
+const filesHandler = new FilesHandler();
+ipcMain.on('files:submit', filesHandler.optimize);
