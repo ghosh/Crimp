@@ -58,7 +58,7 @@ class App extends Component {
         <WidgetBody>
           {this.state.isOptimizing ? (
             <Busy>
-              <p>Converting...</p>
+              <p>Optimizing...</p>
             </Busy>
           ) : (
             <Dropzone
@@ -78,7 +78,7 @@ class App extends Component {
                 );
                 return (
                   <div>
-                    <DropzoneTitle>Drop files here to convert</DropzoneTitle>
+                    <DropzoneTitle>Drop files here to optimize</DropzoneTitle>
                     <DropzoneSubtitle>Accepts .jpg, .png, .gif and .svg</DropzoneSubtitle>
                   </div>
                 );

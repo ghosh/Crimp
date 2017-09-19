@@ -4,7 +4,7 @@
   "private": true,
   "devDependencies": {
     "concurrently": "^3.5.0",
-    "react-scripts": "1.0.10"
+    "react-scripts": "1.0.13"
   },
   "main": "app/main.js",
   "homepage": "./",
@@ -23,7 +23,7 @@
     "pretty-bytes": "^4.0.2",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
-    "react-dropzone": "^3.13.3",
+    "react-dropzone": "^4.1.2",
     "styled-components": "^2.1.1"
   },
   "scripts": {
