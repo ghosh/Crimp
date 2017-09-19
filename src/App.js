@@ -15,10 +15,8 @@ class App extends Component {
 
   constructor(props, context) {
     super(props, context);
-
     this.onDrop = this.onDrop.bind(this);
     this.onConversion = this.onConversion.bind(this);
-
     this.state = { isOptimizing: false };
   }
 
@@ -39,6 +37,7 @@ class App extends Component {
   }
 
   onDrop(acceptedFiles) {
+    if (acceptedFiles.length < 1) return;
     const filePaths = acceptedFiles.map( file => file.path );
     ipcRenderer.send('files:submit', filePaths);
     this.setState({ isOptimizing: true });

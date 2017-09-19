@@ -6,10 +6,10 @@ const StyledBody = styled.section`
   flex: 1;
 `;
 
-const AppBody = ({ children }) => (
+const WidgetBody = ({ children }) => (
   <StyledBody>
     { children }
   </StyledBody>
 )
 
-export default AppBody
+export default WidgetBody

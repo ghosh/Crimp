@@ -5,10 +5,10 @@ const StyledFooter = styled.section`
 	padding: 0 10px;
 `;
 
-const AppFooter = ({ children }) => (
+const WidgetFooter = ({ children }) => (
   <StyledFooter>
     { children }
   </StyledFooter>
 )
 
-export default AppFooter;
+export default WidgetFooter;

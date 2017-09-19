@@ -6,10 +6,10 @@ const StyledHeader = styled.section`
   -webkit-app-region: drag;
 `;
 
-const AppHeader = ({ children }) => (
+const WidgetHeader = ({ children }) => (
   <StyledHeader>
     { children }
   </StyledHeader>
 )
 
-export default AppHeader
+export default WidgetHeader
