@@ -3628,6 +3628,13 @@ imagemin-pngquant@^5.0.1:
     is-png "^1.0.0"
     pngquant-bin "^3.0.0"
 
+imagemin-svgo@^5.2.2:
+  version "5.2.2"
+  resolved "https://registry.yarnpkg.com/imagemin-svgo/-/imagemin-svgo-5.2.2.tgz#501699f5789730a57922b8736ea15c53f7b55838"
+  dependencies:
+    is-svg "^2.0.0"
+    svgo "^0.7.0"
+
 imagemin@^5.3.1:
   version "5.3.1"
   resolved "https://registry.yarnpkg.com/imagemin/-/imagemin-5.3.1.tgz#f19c2eee1e71ba6c6558c515f9fc96680189a6d4"

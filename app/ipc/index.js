@@ -7,12 +7,17 @@ import prettyBytes from 'pretty-bytes';
 import imageminJpegtran from 'imagemin-jpegtran';
 import imageminPngquant from 'imagemin-pngquant';
 import imageminGifsicle from 'imagemin-gifsicle';
+import imageminSvgo from 'imagemin-svgo';
 
 
 const imageMinPlugins = [
   imageminJpegtran(),
   imageminPngquant({quality: '65-80'}),
-  imageminGifsicle({optimizationLevel: 2})
+  imageminGifsicle({optimizationLevel: 2}),
+  imageminSvgo({ plugins: [ {
+    removeTitle: true,
+    removeDimensions: true
+  } ]})
 ];
 
 export default class ipcHandler {

@@ -64,7 +64,7 @@ class App extends Component {
             <Dropzone
               onDrop={this.onDrop}
               ref={(node) => { dropzoneRef = node; }}
-              accept="image/jpeg, image/png, image/gif"
+              accept="image/jpeg, image/png, image/gif, .svg"
               style={ DropzoneStyles.dropzone }
               activeStyle={ DropzoneStyles.active }
               rejectStyle={ DropzoneStyles.reject }

@@ -18,6 +18,7 @@
     "imagemin-gifsicle": "^5.2.0",
     "imagemin-jpegtran": "^5.0.2",
     "imagemin-pngquant": "^5.0.1",
+    "imagemin-svgo": "^5.2.2",
     "plur": "^2.1.2",
     "pretty-bytes": "^4.0.2",
     "react": "^15.6.1",
