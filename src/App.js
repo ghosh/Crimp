@@ -50,9 +50,9 @@ class App extends Component {
     return (
       <Widget>
         <WidgetHeader>
-            <Title>
-              Drop files to optimize
-            </Title>
+          <Title>
+            Drop files to optimize
+          </Title>
         </WidgetHeader>
         <WidgetBody>
           {this.state.isOptimizing ? (
