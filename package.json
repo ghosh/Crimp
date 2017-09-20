@@ -1,8 +1,8 @@
 {
-    "name": "webpfy",
-    "productName": "webpfy",
+    "name": "Crimp",
+    "productName": "Crimp",
     "version": "1.0.0",
-    "description": "My Electron application description",
+    "description": "Mac app for image, gif and document compression and minification",
     "main": "src/main/index.js",
     "scripts": {
         "start": "electron-forge start",
@@ -11,39 +11,26 @@
         "publish": "electron-forge publish",
         "lint": "echo \"No linting configured\""
     },
-    "keywords": [],
+    "keywords": ["compression", "mac", "electron", "jpg", "electron", "minification", "mac app"],
     "author": "ghosh",
     "license": "MIT",
     "config": {
         "forge": {
             "make_targets": {
-                "win32": [
-                    "squirrel"
-                ],
                 "darwin": [
-                    "zip"
+                    "dmg"
                 ],
-                "linux": [
-                    "deb",
-                    "rpm"
-                ]
             },
             "electronPackagerConfig": {
                 "packageManager": "yarn"
             },
-            "electronWinstallerConfig": {
-                "name": "webpfy"
+            "electronInstallerDMG": {
+                "name": "Crimp"
             },
-            "electronInstallerDebian": {},
-            "electronInstallerRedhat": {},
             "github_repository": {
                 "owner": "",
                 "name": ""
             },
-            "windowsStoreConfig": {
-                "packageName": "",
-                "name": "webpfy"
-            }
         }
     },
     "dependencies": {
