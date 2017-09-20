@@ -20,6 +20,8 @@ const createWindow = async () => {
     resizable: false,
     acceptFirstMouse: true,
     frame: false,
+    backgroundColor: '#141e2a',
+    show: false
     // vibrancy: 'dark',
     // icon: path.join(__dirname, '/assets/Crimp.icns')
   })
@@ -36,6 +38,10 @@ const createWindow = async () => {
       'default/Extensions/fmkadmapgofadopljbjfkapdkoienihi/2.5.1_0'
     );
   }
+
+   mainWindow.once('ready-to-show', () => {
+      mainWindow.show()
+   })
 
   mainWindow.on('closed', () => mainWindow = null );
 };

@@ -19,7 +19,7 @@
       "make_targets": {
         "darwin": [
             "dmg"
-        ],
+        ]
       },
       "electronPackagerConfig": {
         "packageManager": "yarn"
@@ -30,7 +30,7 @@
       "github_repository": {
         "owner": "",
         "name": ""
-      },
+      }
     }
   },
   "dependencies": {
