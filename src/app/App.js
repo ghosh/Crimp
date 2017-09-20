@@ -79,7 +79,7 @@ class App extends Component {
                 return (
                   <div>
                     <DropzoneTitle>Drop files here to optimize</DropzoneTitle>
-                    <DropzoneSubtitle>Accepts .jpg, .png, .gif and .svg</DropzoneSubtitle>
+                    <DropzoneSubtitle>.jpg, .png, .gif and .svg accepted</DropzoneSubtitle>
                   </div>
                 );
               }}

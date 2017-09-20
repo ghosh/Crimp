@@ -22,7 +22,8 @@
         ]
       },
       "electronPackagerConfig": {
-        "packageManager": "yarn"
+        "packageManager": "yarn",
+        "icon": "src/assets/crimp.icns"
       },
       "electronInstallerDMG": {
         "name": "Crimp"

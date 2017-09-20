@@ -21,9 +21,8 @@ const createWindow = async () => {
     acceptFirstMouse: true,
     frame: false,
     backgroundColor: '#141e2a',
-    show: false
-    // vibrancy: 'dark',
-    // icon: path.join(__dirname, '/assets/Crimp.icns')
+    show: false,
+    // vibrancy: 'dark'
   })
 
   mainWindow.loadURL(`file://${__dirname}/../app/index.html`);
