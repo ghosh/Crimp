@@ -15,7 +15,7 @@ let mainWindow;
 
 const createWindow  = () => {
   mainWindow = new BrowserWindow({
-    title: 'Webpfy',
+    title: 'Crimp',
     width: 300,
     height: 422,
     titleBarStyle: 'hidden',
@@ -24,7 +24,7 @@ const createWindow  = () => {
     acceptFirstMouse: true,
     frame: false,
     // vibrancy: 'dark',
-    icon: path.join(__dirname, '/assets/Webpfy.icns')
+    icon: path.join(__dirname, '/assets/Crimp.icns')
   })
 
   const urlFormat = {

@@ -1,10 +1,10 @@
 import { app } from 'electron';
 
 export default {
-  label: 'Webpfy',
+  label: 'Crimp',
   submenu: [
     {
-      label: 'About ' + 'Webpfy',
+      label: 'About ' + 'Crimp',
       role: 'about'
     },
     {
@@ -19,7 +19,7 @@ export default {
       type: 'separator'
     },
     {
-      label: 'Hide ' + 'Webpfy',
+      label: 'Hide ' + 'Crimp',
       accelerator: 'Command+H',
       role: 'hide'
     },
