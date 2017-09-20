@@ -1,17 +1,17 @@
 import { app, Menu, shell, BrowserWindow } from 'electron';
 import aboutMenuTemplate from './About.js';
 import devMenuTemplate from './Dev.js';
-import editMenuTemplate from './Edit.js';
+import helpMenuTemplate from './Help.js';
+import windowMenuTemplate from './Window.js';
 
 export default class MenuBuilder {
-
   constructor(mainWindow = BrowserWindow) {
     this.mainWindow = mainWindow;
   }
 
-  buildMenu() {
-
+  buildMenu(isDevMode) {
 		let menuTemplate = this.buildMenuTemplate();
+    if (isDevMode) menuTemplate.push(devMenuTemplate);
     const menu = Menu.buildFromTemplate(menuTemplate);
 
     Menu.setApplicationMenu(menu);
@@ -21,8 +21,8 @@ export default class MenuBuilder {
   buildMenuTemplate() {
     return [
       aboutMenuTemplate,
-      editMenuTemplate,
-      devMenuTemplate,
+      windowMenuTemplate,
+      helpMenuTemplate
     ];
   }
 

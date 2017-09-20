@@ -28,7 +28,7 @@ const createWindow = async () => {
   mainWindow.loadURL(`file://${__dirname}/../app/index.html`);
 
   const menuBuilder = new MenuBuilder(mainWindow);
-  menuBuilder.buildMenu();
+  menuBuilder.buildMenu(isDevMode);
 
 
   if (isDevMode) {
