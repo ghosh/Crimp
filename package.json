@@ -22,6 +22,9 @@
         ]
       },
       "electronPackagerConfig": {
+        "appCopyright": "Created by Indrashish Ghosh\nCopyright © 2017 www.ghosh.io",
+        "appBundleId": "io.ghosh.crimp",
+        "appCategoryType": "public.app-category.productivity",
         "packageManager": "yarn",
         "icon": "src/assets/crimp.icns"
       },
