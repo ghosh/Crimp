@@ -47,6 +47,14 @@
 		"oAP": "\/build\/index.html",
 		"oF": 0
 		},
+	"\/now.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/now-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"\/src\/images\/image.png": {
 		"ft": 32768,
 		"iS": 53271,
