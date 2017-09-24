@@ -9,6 +9,12 @@
 	],
 "creatorBuild": "25900",
 "files": {
+	"\/.gitignore": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.gitignore",
+		"oF": 0
+		},
 	"\/build\/crimp.css": {
 		"aP": 1,
 		"bl": 0,
@@ -47,13 +53,1403 @@
 		"oAP": "\/build\/index.html",
 		"oF": 0
 		},
-	"\/now.json": {
+	"\/node_modules": {
+		"ft": 65536,
+		"oA": 2,
+		"oAP": "\/build\/node_modules",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Crimp Helper EH.app\/Contents\/Info.plist": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Crimp Helper EH.app\/Contents\/Info.plist",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Crimp Helper EH.app\/Contents\/MacOS\/Crimp Helper EH": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Crimp Helper EH.app\/Contents\/MacOS\/Crimp Helper EH",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Crimp Helper EH.app\/Contents\/PkgInfo": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Crimp Helper EH.app\/Contents\/PkgInfo",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Crimp Helper NP.app\/Contents\/Info.plist": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Crimp Helper NP.app\/Contents\/Info.plist",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Crimp Helper NP.app\/Contents\/MacOS\/Crimp Helper NP": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Crimp Helper NP.app\/Contents\/MacOS\/Crimp Helper NP",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Crimp Helper NP.app\/Contents\/PkgInfo": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Crimp Helper NP.app\/Contents\/PkgInfo",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Crimp Helper.app\/Contents\/Info.plist": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Crimp Helper.app\/Contents\/Info.plist",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Crimp Helper.app\/Contents\/MacOS\/Crimp Helper": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Crimp Helper.app\/Contents\/MacOS\/Crimp Helper",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Crimp Helper.app\/Contents\/PkgInfo": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Crimp Helper.app\/Contents\/PkgInfo",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Electron Framework": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Electron Framework",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Libraries\/libffmpeg.dylib": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Libraries\/libffmpeg.dylib",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Libraries\/libnode.dylib": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Libraries\/libnode.dylib",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/am.lproj\/locale.pak": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/am.lproj\/locale.pak",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/ar.lproj\/locale.pak": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/ar.lproj\/locale.pak",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/bg.lproj\/locale.pak": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/bg.lproj\/locale.pak",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/bn.lproj\/locale.pak": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/bn.lproj\/locale.pak",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/ca.lproj\/locale.pak": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/ca.lproj\/locale.pak",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/content_shell.pak": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/content_shell.pak",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/crashpad_handler": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/crashpad_handler",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/cs.lproj\/locale.pak": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/cs.lproj\/locale.pak",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/da.lproj\/locale.pak": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/da.lproj\/locale.pak",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/de.lproj\/locale.pak": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/de.lproj\/locale.pak",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/el.lproj\/locale.pak": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/el.lproj\/locale.pak",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/en.lproj\/locale.pak": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/en.lproj\/locale.pak",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/en_GB.lproj\/locale.pak": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/en_GB.lproj\/locale.pak",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/es.lproj\/locale.pak": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/es.lproj\/locale.pak",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/es_419.lproj\/locale.pak": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/es_419.lproj\/locale.pak",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/et.lproj\/locale.pak": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/et.lproj\/locale.pak",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/fa.lproj\/locale.pak": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/fa.lproj\/locale.pak",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/fi.lproj\/locale.pak": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/fi.lproj\/locale.pak",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/fil.lproj\/locale.pak": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/fil.lproj\/locale.pak",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/fr.lproj\/locale.pak": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/fr.lproj\/locale.pak",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/gu.lproj\/locale.pak": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/gu.lproj\/locale.pak",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/he.lproj\/locale.pak": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/he.lproj\/locale.pak",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/hi.lproj\/locale.pak": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/hi.lproj\/locale.pak",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/hr.lproj\/locale.pak": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/hr.lproj\/locale.pak",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/hu.lproj\/locale.pak": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/hu.lproj\/locale.pak",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/icudtl.dat": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/icudtl.dat",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/id.lproj\/locale.pak": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/id.lproj\/locale.pak",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/Info.plist": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/Info.plist",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/it.lproj\/locale.pak": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/it.lproj\/locale.pak",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/ja.lproj\/locale.pak": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/ja.lproj\/locale.pak",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/kn.lproj\/locale.pak": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/kn.lproj\/locale.pak",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/ko.lproj\/locale.pak": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/ko.lproj\/locale.pak",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/lt.lproj\/locale.pak": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/lt.lproj\/locale.pak",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/lv.lproj\/locale.pak": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/lv.lproj\/locale.pak",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/MainMenu.nib": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/MainMenu.nib",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/ml.lproj\/locale.pak": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/ml.lproj\/locale.pak",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/mr.lproj\/locale.pak": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/mr.lproj\/locale.pak",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/ms.lproj\/locale.pak": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/ms.lproj\/locale.pak",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/natives_blob.bin": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/natives_blob.bin",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/nb.lproj\/locale.pak": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/nb.lproj\/locale.pak",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/nl.lproj\/locale.pak": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/nl.lproj\/locale.pak",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/pdf_viewer_resources.pak": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/pdf_viewer_resources.pak",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/pl.lproj\/locale.pak": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/pl.lproj\/locale.pak",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/pt_BR.lproj\/locale.pak": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/pt_BR.lproj\/locale.pak",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/pt_PT.lproj\/locale.pak": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/pt_PT.lproj\/locale.pak",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/ro.lproj\/locale.pak": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/ro.lproj\/locale.pak",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/ru.lproj\/locale.pak": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/ru.lproj\/locale.pak",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/sk.lproj\/locale.pak": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/sk.lproj\/locale.pak",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/sl.lproj\/locale.pak": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/sl.lproj\/locale.pak",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/snapshot_blob.bin": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/snapshot_blob.bin",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/sr.lproj\/locale.pak": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/sr.lproj\/locale.pak",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/sv.lproj\/locale.pak": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/sv.lproj\/locale.pak",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/sw.lproj\/locale.pak": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/sw.lproj\/locale.pak",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/ta.lproj\/locale.pak": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/ta.lproj\/locale.pak",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/te.lproj\/locale.pak": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/te.lproj\/locale.pak",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/th.lproj\/locale.pak": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/th.lproj\/locale.pak",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/tr.lproj\/locale.pak": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/tr.lproj\/locale.pak",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/uk.lproj\/locale.pak": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/uk.lproj\/locale.pak",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/vi.lproj\/locale.pak": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/vi.lproj\/locale.pak",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/zh_CN.lproj\/locale.pak": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/zh_CN.lproj\/locale.pak",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/zh_TW.lproj\/locale.pak": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/zh_TW.lproj\/locale.pak",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Mantle.framework\/Versions\/A\/Headers\/Mantle.h": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Mantle.framework\/Versions\/A\/Headers\/Mantle.h",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Mantle.framework\/Versions\/A\/Headers\/MTLJSONAdapter.h": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Mantle.framework\/Versions\/A\/Headers\/MTLJSONAdapter.h",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Mantle.framework\/Versions\/A\/Headers\/MTLManagedObjectAdapter.h": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Mantle.framework\/Versions\/A\/Headers\/MTLManagedObjectAdapter.h",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Mantle.framework\/Versions\/A\/Headers\/MTLModel+NSCoding.h": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Mantle.framework\/Versions\/A\/Headers\/MTLModel+NSCoding.h",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Mantle.framework\/Versions\/A\/Headers\/MTLModel.h": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Mantle.framework\/Versions\/A\/Headers\/MTLModel.h",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Mantle.framework\/Versions\/A\/Headers\/MTLValueTransformer.h": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Mantle.framework\/Versions\/A\/Headers\/MTLValueTransformer.h",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Mantle.framework\/Versions\/A\/Headers\/NSArray+MTLManipulationAdditions.h": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Mantle.framework\/Versions\/A\/Headers\/NSArray+MTLManipulationAdditions.h",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Mantle.framework\/Versions\/A\/Headers\/NSDictionary+MTLManipulationAdditions.h": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Mantle.framework\/Versions\/A\/Headers\/NSDictionary+MTLManipulationAdditions.h",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Mantle.framework\/Versions\/A\/Headers\/NSObject+MTLComparisonAdditions.h": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Mantle.framework\/Versions\/A\/Headers\/NSObject+MTLComparisonAdditions.h",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Mantle.framework\/Versions\/A\/Headers\/NSValueTransformer+MTLInversionAdditions.h": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Mantle.framework\/Versions\/A\/Headers\/NSValueTransformer+MTLInversionAdditions.h",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Mantle.framework\/Versions\/A\/Headers\/NSValueTransformer+MTLPredefinedTransformerAdditions.h": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Mantle.framework\/Versions\/A\/Headers\/NSValueTransformer+MTLPredefinedTransformerAdditions.h",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Mantle.framework\/Versions\/A\/Mantle": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Mantle.framework\/Versions\/A\/Mantle",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Mantle.framework\/Versions\/A\/Modules\/module.modulemap": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Mantle.framework\/Versions\/A\/Modules\/module.modulemap",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Mantle.framework\/Versions\/A\/Resources\/Info.plist": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Mantle.framework\/Versions\/A\/Resources\/Info.plist",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/EXTKeyPathCoding.h": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/EXTKeyPathCoding.h",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/EXTScope.h": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/EXTScope.h",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/metamacros.h": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/metamacros.h",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/NSArray+RACSequenceAdditions.h": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/NSArray+RACSequenceAdditions.h",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/NSControl+RACCommandSupport.h": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/NSControl+RACCommandSupport.h",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/NSControl+RACTextSignalSupport.h": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/NSControl+RACTextSignalSupport.h",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/NSData+RACSupport.h": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/NSData+RACSupport.h",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/NSDictionary+RACSequenceAdditions.h": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/NSDictionary+RACSequenceAdditions.h",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/NSEnumerator+RACSequenceAdditions.h": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/NSEnumerator+RACSequenceAdditions.h",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/NSFileHandle+RACSupport.h": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/NSFileHandle+RACSupport.h",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/NSIndexSet+RACSequenceAdditions.h": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/NSIndexSet+RACSequenceAdditions.h",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/NSNotificationCenter+RACSupport.h": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/NSNotificationCenter+RACSupport.h",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/NSObject+RACAppKitBindings.h": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/NSObject+RACAppKitBindings.h",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/NSObject+RACDeallocating.h": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/NSObject+RACDeallocating.h",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/NSObject+RACLifting.h": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/NSObject+RACLifting.h",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/NSObject+RACPropertySubscribing.h": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/NSObject+RACPropertySubscribing.h",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/NSObject+RACSelectorSignal.h": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/NSObject+RACSelectorSignal.h",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/NSOrderedSet+RACSequenceAdditions.h": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/NSOrderedSet+RACSequenceAdditions.h",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/NSSet+RACSequenceAdditions.h": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/NSSet+RACSequenceAdditions.h",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/NSString+RACSequenceAdditions.h": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/NSString+RACSequenceAdditions.h",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/NSString+RACSupport.h": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/NSString+RACSupport.h",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/NSText+RACSignalSupport.h": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/NSText+RACSignalSupport.h",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/NSURLConnection+RACSupport.h": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/NSURLConnection+RACSupport.h",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/NSUserDefaults+RACSupport.h": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/NSUserDefaults+RACSupport.h",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/RACBacktrace.h": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/RACBacktrace.h",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/RACBehaviorSubject.h": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/RACBehaviorSubject.h",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/RACChannel.h": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/RACChannel.h",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/RACCommand.h": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/RACCommand.h",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/RACCompoundDisposable.h": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/RACCompoundDisposable.h",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/RACDisposable.h": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/RACDisposable.h",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/RACEvent.h": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/RACEvent.h",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/RACGroupedSignal.h": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/RACGroupedSignal.h",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/RACKVOChannel.h": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/RACKVOChannel.h",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/RACMulticastConnection.h": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/RACMulticastConnection.h",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/RACQueueScheduler+Subclass.h": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/RACQueueScheduler+Subclass.h",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/RACQueueScheduler.h": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/RACQueueScheduler.h",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/RACReplaySubject.h": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/RACReplaySubject.h",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/RACScheduler+Subclass.h": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/RACScheduler+Subclass.h",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/RACScheduler.h": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/RACScheduler.h",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/RACScopedDisposable.h": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/RACScopedDisposable.h",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/RACSequence.h": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/RACSequence.h",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/RACSerialDisposable.h": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/RACSerialDisposable.h",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/RACSignal+Operations.h": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/RACSignal+Operations.h",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/RACSignal.h": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/RACSignal.h",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/RACStream.h": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/RACStream.h",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/RACSubject.h": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/RACSubject.h",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/RACSubscriber.h": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/RACSubscriber.h",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/RACSubscriptingAssignmentTrampoline.h": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/RACSubscriptingAssignmentTrampoline.h",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/RACTargetQueueScheduler.h": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/RACTargetQueueScheduler.h",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/RACTestScheduler.h": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/RACTestScheduler.h",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/RACTuple.h": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/RACTuple.h",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/RACUnit.h": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/RACUnit.h",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/ReactiveCocoa.h": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Headers\/ReactiveCocoa.h",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Modules\/module.modulemap": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Modules\/module.modulemap",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/ReactiveCocoa": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/ReactiveCocoa",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Resources\/Info.plist": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/ReactiveCocoa.framework\/Versions\/A\/Resources\/Info.plist",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Squirrel.framework\/Versions\/A\/Headers\/NSBundle+SQRLVersionExtensions.h": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Squirrel.framework\/Versions\/A\/Headers\/NSBundle+SQRLVersionExtensions.h",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Squirrel.framework\/Versions\/A\/Headers\/NSProcessInfo+SQRLVersionExtensions.h": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Squirrel.framework\/Versions\/A\/Headers\/NSProcessInfo+SQRLVersionExtensions.h",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Squirrel.framework\/Versions\/A\/Headers\/SQRLDownloadedUpdate.h": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Squirrel.framework\/Versions\/A\/Headers\/SQRLDownloadedUpdate.h",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Squirrel.framework\/Versions\/A\/Headers\/SQRLUpdate.h": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Squirrel.framework\/Versions\/A\/Headers\/SQRLUpdate.h",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Squirrel.framework\/Versions\/A\/Headers\/SQRLUpdater.h": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Squirrel.framework\/Versions\/A\/Headers\/SQRLUpdater.h",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Squirrel.framework\/Versions\/A\/Headers\/Squirrel.h": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Squirrel.framework\/Versions\/A\/Headers\/Squirrel.h",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Squirrel.framework\/Versions\/A\/Modules\/module.modulemap": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Squirrel.framework\/Versions\/A\/Modules\/module.modulemap",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Squirrel.framework\/Versions\/A\/Resources\/Info.plist": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Squirrel.framework\/Versions\/A\/Resources\/Info.plist",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Squirrel.framework\/Versions\/A\/Resources\/ShipIt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Squirrel.framework\/Versions\/A\/Resources\/ShipIt",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Squirrel.framework\/Versions\/A\/Squirrel": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Frameworks\/Squirrel.framework\/Versions\/A\/Squirrel",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Info.plist": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Info.plist",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/MacOS\/Crimp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/MacOS\/Crimp",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/PkgInfo": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/PkgInfo",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.babelrc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.babelrc",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/0656b071a9290e4fbcf8ee190e53393d5ba1af68": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/0656b071a9290e4fbcf8ee190e53393d5ba1af68",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/08519784c9b0e7acb7484a3b429e53dc74ef0f70": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/08519784c9b0e7acb7484a3b429e53dc74ef0f70",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/0a3fc20938acbfae77e70f35fbbc7e4053ea2ac2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/0a3fc20938acbfae77e70f35fbbc7e4053ea2ac2",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/0c52015899a49d747d8f98388409a2eb5b294a9e": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/0c52015899a49d747d8f98388409a2eb5b294a9e",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/193a2cc7202b0e2918b8718c4ace003c607020a3": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/193a2cc7202b0e2918b8718c4ace003c607020a3",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/35eb3b74b075885b13d444988816bb860c028d60": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/35eb3b74b075885b13d444988816bb860c028d60",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/46c5323980f3263528d2bd82558c62e416aa7bcf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/46c5323980f3263528d2bd82558c62e416aa7bcf",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/4e91325e26311725abcb088558c1e576cf7b7b75": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/4e91325e26311725abcb088558c1e576cf7b7b75",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/519dc1efec8d87f0eee3b44cf660effff0609828": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/519dc1efec8d87f0eee3b44cf660effff0609828",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/57fbbd6f173d8b2319a5aa5043dc86ee23dd9fce": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/57fbbd6f173d8b2319a5aa5043dc86ee23dd9fce",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/5e035b55d4ce12db064fc7406e2e3d69362237c8": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/5e035b55d4ce12db064fc7406e2e3d69362237c8",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/5e36f6019028773db2361bcd71e0999cf999029c": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/5e36f6019028773db2361bcd71e0999cf999029c",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/81ae3066808c7f42378ac4f304fc157a3f474946": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/81ae3066808c7f42378ac4f304fc157a3f474946",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/98558a45ecb6f18d299d6f69c75ef07a64e4fa7f": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/98558a45ecb6f18d299d6f69c75ef07a64e4fa7f",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/a9ecc2dabe81d893453a80c47de35abf880e1bf7": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/a9ecc2dabe81d893453a80c47de35abf880e1bf7",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/b78628d7309f1f783bc26324df54558478ef2a87": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/b78628d7309f1f783bc26324df54558478ef2a87",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/b8a83afc81adad40974ed8e9fb70c2e618976a1c": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/b8a83afc81adad40974ed8e9fb70c2e618976a1c",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/dc3daf909362ad94c500129211a91bb70876d3fc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/dc3daf909362ad94c500129211a91bb70876d3fc",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/e341e13120519de58316005c4329aebf2898e0a4": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/e341e13120519de58316005c4329aebf2898e0a4",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/fc2487b28912394c318a91d57283aa35b092ea80": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/fc2487b28912394c318a91d57283aa35b092ea80",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/compiler-info.json.gz": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/compiler-info.json.gz",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/ebbeac2ce84da83b22b0c3c7f56b2cf07dc8d634\/f923362b8688c9d3b3c37aee7cc68dead863f154": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/ebbeac2ce84da83b22b0c3c7f56b2cf07dc8d634\/f923362b8688c9d3b3c37aee7cc68dead863f154",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.compilerc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.compilerc",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.eslintrc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.eslintrc",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.gitignore": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.gitignore",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/es6-shim.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/es6-shim-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/node_modules": {
+		"ft": 65536,
+		"oA": 2,
+		"oAP": "\/build\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/node_modules",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/package.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/now-min.json",
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/package-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/app\/App.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/app\/App-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/app\/components\/Busy\/index.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/app\/components\/Busy\/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/app\/components\/Button\/index.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/app\/components\/Button\/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/app\/components\/Dropzone\/DropzoneSubtitle.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/app\/components\/Dropzone\/DropzoneSubtitle-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/app\/components\/Dropzone\/DropzoneTitle.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/app\/components\/Dropzone\/DropzoneTitle-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/app\/components\/Dropzone\/index.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/app\/components\/Dropzone\/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/app\/components\/Title\/index.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/app\/components\/Title\/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/app\/components\/Widget\/index.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/app\/components\/Widget\/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/app\/components\/Widget\/Widget.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/app\/components\/Widget\/Widget-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/app\/components\/Widget\/WidgetBody.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/app\/components\/Widget\/WidgetBody-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/app\/components\/Widget\/WidgetFooter.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/app\/components\/Widget\/WidgetFooter-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/app\/components\/Widget\/WidgetHeader.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/app\/components\/Widget\/WidgetHeader-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/app\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/app\/index.html",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/assets\/crimp.icns": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/assets\/crimp.icns",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/main\/index.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/main\/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/main\/ipc\/FilesHandler.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/main\/ipc\/FilesHandler-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/main\/ipc\/index.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/main\/ipc\/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/main\/menu\/About.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/main\/menu\/About-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/main\/menu\/Dev.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/main\/menu\/Dev-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/main\/menu\/Help.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/main\/menu\/Help-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/main\/menu\/index.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/main\/menu\/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/main\/menu\/Window.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/main\/menu\/Window-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/yarn.lock": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/yarn.lock",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/electron.asar": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/electron.asar",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/electron.icns": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/electron.icns",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/LICENSE": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/LICENSE",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/LICENSES.chromium.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/LICENSES.chromium.html",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/version": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/version",
+		"oF": 0
+		},
+	"\/out\/make\/Crimp-darwin-x64-0.1.0.zip": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/make\/Crimp-darwin-x64-0.1.0.zip",
+		"oF": 0
+		},
+	"\/src\/images\/favicon-16x16.png": {
+		"ft": 32768,
+		"iS": 332,
+		"oA": 0,
+		"oAP": "\/build\/images\/favicon-16x16.png",
+		"oF": 2,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/images\/favicon-32x32.png": {
+		"ft": 32768,
+		"iS": 592,
+		"oA": 0,
+		"oAP": "\/build\/images\/favicon-32x32.png",
+		"oF": 2,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
 		},
 	"\/src\/images\/image.png": {
 		"ft": 32768,
