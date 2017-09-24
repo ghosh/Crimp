@@ -1,7 +1,0 @@
-{
-	"name": "Crimp",
-	"description": "A mac app for your compression needs",
-	"type": "static",
-	"target": "./build",
-	"alias": "crimp.now.sh"
-}
