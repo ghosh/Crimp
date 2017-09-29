@@ -1,5 +1,5 @@
 import React from 'react';
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
 
 export const SVGcontainer = styled.div`
   display: flex;
@@ -7,6 +7,11 @@ export const SVGcontainer = styled.div`
   margin-bottom: 10px;
   position: relative;
   min-height: 50px;
+`;
+
+const rotateHand = keyframes`
+  from { transform: rotate(-15deg)}
+  to { transform: rotate(15deg) }
 `;
 
 export const Icon = styled.div`
@@ -47,6 +52,16 @@ const StopIcon = Icon.extend`
   ${props => {
     if (props.disabled) return `display: block;`;
     if (props.hover) return `transform: translate3d(0,-10px,0);`;
+  }}
+`;
+
+const HandIcon = Icon.extend`
+  display: none;
+  bottom: 10px;
+  transform-origin: bottom center;
+  animation: ${rotateHand} .6s alternate infinite;
+  ${props => {
+    if (props.disabled) return `display: block;`;
   }}
 `;
 

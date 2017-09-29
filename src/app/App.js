@@ -90,9 +90,15 @@ class App extends Component {
           )}
         </WidgetBody>
         <WidgetFooter>
-          <Button onClick={() => dropzoneRef.open()} >
-            Select Files
-          </Button>
+          {this.state.isOptimizing ? (
+            <Button disabled={true} >
+              Optimizing...
+            </Button>
+          ) : (
+            <Button onClick={() => dropzoneRef.open()} >
+              Select Files
+            </Button>
+          )}
         </WidgetFooter>
       </Widget>
     );

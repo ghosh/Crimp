@@ -15,10 +15,16 @@ const StyledButton = styled.button`
   padding: 8px 15px 10px;
   line-height: 1.5;
   &:hover { background: #6853ef; }
+
+  :disabled {
+    cursor: no-drop;
+    background: #9a8cfb;
+    &:hover { background: #9a8cfb; }
+  }
 `;
 
-const Button = ({ children, onClick }) => (
-  <StyledButton onClick={ onClick } >
+const Button = ({ children, onClick, disabled }) => (
+  <StyledButton onClick={ onClick } disabled={disabled} >
     { children }
   </StyledButton>
 )
