@@ -11,27 +11,59 @@ export const SVGcontainer = styled.div`
 
 export const Icon = styled.div`
   will-change: transform;
+  transition: transform 0.3s ease;
   position: absolute;
 `;
 
 const GifIcon = Icon.extend`
   left: 30px;
   transform: rotate(-20deg) scale(0.8);
+  ${props => {
+    if (props.disabled) return `display: none;`;
+    if (props.hover) return `transform: translate3d(-10px,-10px,0) rotate(-20deg) scale(0.8);`;
+  }}
 `;
 
 const ImageIcon = Icon.extend`
   bottom: 10px;
+  ${props => {
+    if (props.disabled) return `display: none;`;
+    if (props.hover) return `transform: translate3d(0,-10px,0);`;
+  }}
 `;
 
 const SvgIcon = Icon.extend`
   right: 30px;
   transform: rotate(20deg) scale(0.8);
+  ${props => {
+    if (props.disabled) return `display: none;`;
+    if (props.hover) return `transform: translate3d(10px,-10px,0) rotate(20deg) scale(0.8);`;
+  }}
+`;
+
+const StopIcon = Icon.extend`
+  display: none;
+  bottom: 10px;
+  ${props => {
+    if (props.disabled) return `display: block;`;
+    if (props.hover) return `transform: translate3d(0,-10px,0);`;
+  }}
 `;
 
 const DropzoneIcons = (props) => (
   <SVGcontainer>
 
-    <GifIcon>
+    <StopIcon disabled={props.disabled}>
+      <svg xmlns="http://www.w3.org/2000/svg" width="37" height="48" viewBox="0 0 37 48">
+        <g fill="none" fillRule="evenodd" strokeWidth="2" transform="translate(1 1)">
+          <path stroke="#8F9DB2" d="M35 44.532V46H.9853v-1.9574H1V0h21l13 12.7234V44.532zM22 0v13h13" strokeLinecap="round" strokeLinejoin="round"/>
+          <circle cx="18" cy="32" r="6" stroke="#EE5F55"/>
+          <path stroke="#EE5F55" d="M22.5147 28L14 36.5147"/>
+        </g>
+      </svg>
+    </StopIcon>
+
+    <GifIcon hover={props.hover} disabled={props.disabled}>
       <svg xmlns="http://www.w3.org/2000/svg" width="37" height="48" viewBox="0 0 37 48">
         <g fill="none" fillRule="evenodd" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
           <path stroke="#8F9DB2" d="M36 45.532V47H1.9853v-1.9574H2V1h21l13 12.7234V45.532zM23 1v13h13"/>
@@ -40,7 +72,7 @@ const DropzoneIcons = (props) => (
       </svg>
     </GifIcon>
 
-    <ImageIcon>
+    <ImageIcon hover={props.hover} disabled={props.disabled}>
       <svg xmlns="http://www.w3.org/2000/svg" width="37" height="48" viewBox="0 0 37 48">
         <g fill="none" fillRule="evenodd" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
           <path stroke="#8F9DB2" d="M36 45.532V47H1.9853v-1.9574H2V1h21l13 12.7234V45.532zM23 1v13h13"/>
@@ -49,7 +81,7 @@ const DropzoneIcons = (props) => (
       </svg>
     </ImageIcon>
 
-    <SvgIcon>
+    <SvgIcon hover={props.hover} disabled={props.disabled}>
       <svg xmlns="http://www.w3.org/2000/svg" width="37" height="48" viewBox="0 0 37 48">
         <g fill="none" fillRule="evenodd" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
           <path stroke="#45B5F5" d="M23 25l6 6-6 6m-8 0l-6-6 6-6"/>

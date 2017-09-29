@@ -67,10 +67,16 @@ class App extends Component {
             >
               {({ isDragActive, isDragReject, acceptedFiles, rejectedFiles }) => {
                 if (isDragReject) return (
-                  <DropzoneTitle>Only .png, .jpg, .gif and .svg files allowed</DropzoneTitle>
+                  <div>
+                    <DropzoneIcons disabled={true} hover={true} />
+                    <DropzoneTitle>Only .png, .jpg, .gif and .svg files allowed</DropzoneTitle>
+                  </div>
                 );
                 if (isDragActive) return (
-                  <DropzoneTitle>Drop file(s) to start optimization</DropzoneTitle>
+                  <div>
+                    <DropzoneIcons hover={true} />
+                    <DropzoneTitle>Drop file(s) to start optimization</DropzoneTitle>
+                  </div>
                 );
                 return (
                   <div>
