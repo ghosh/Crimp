@@ -22,8 +22,8 @@ const StyledBusy = styled.div`
   display: flex;
   flex-direction: column;
   height: 336px;
-  border-width: 1px;
-  border-color: rgba(255, 255, 255, 0.20);
+  border-width: 2px;
+  border-color: #b8bfda;
   border-style: dashed;
   border-radius: 3px;
   justify-content: center;
@@ -33,10 +33,9 @@ const StyledBusy = styled.div`
 const StyledBusyText = styled.p`
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: white;
   font-size: 14px;
   margin-top: 25px;
-  color: #d4d4d4;
+  color: #5F6185;
 `;
 
 const StyledLoader = styled.div`
@@ -59,21 +58,21 @@ const StyledLoaderArmFirst = StyledLoaderArm.extend`
   left: 0%;
   top: 0%;
   animation: ${rotateFirst} 1s linear infinite;
-  border-bottom: 3px solid #EFEFFA;
+  border-bottom: 3px solid #5F6185;
 `;
 
 const StyledLoaderArmSecond = StyledLoaderArm.extend`
   right: 0%;
   top: 0%;
   animation: ${rotateSecond} 1s linear infinite;
-  border-right: 3px solid #EFEFFA;
+  border-right: 3px solid #5F6185;
 `;
 
 const StyledLoaderArmThird = StyledLoaderArm.extend`
   right: 0%;
   bottom: 0%;
   animation: ${rotateThird} 1s linear infinite;
-  border-top: 3px solid #EFEFFA;
+  border-top: 3px solid #5F6185;
 `;
 
 const Busy = ({ children }) => (

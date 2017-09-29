@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const StyledTitle = styled.p`
   padding-top: 4px;
   font-size: 12px;
-  color: rgba(255, 255, 255, 0.4);
+  color: #4C4D6C;
   margin: 0;
   text-align: center;
   -webkit-touch-callout: none;

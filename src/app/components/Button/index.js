@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 const StyledButton = styled.button`
 	cursor: pointer;
-  background: #0846ac;
+  background: #705bfb;
   border-radius: 3px;
   color: white;
   font-size: 14px;
@@ -14,7 +14,7 @@ const StyledButton = styled.button`
   width: 100%;
   padding: 8px 15px 10px;
   line-height: 1.5;
-  &:hover { background: #073f99; }
+  &:hover { background: #6853ef; }
 `;
 
 const Button = ({ children, onClick }) => (

@@ -1,3 +1,4 @@
+import { ipcRenderer } from 'electron';
 import React, { Component } from 'react';
 import Dropzone from 'react-dropzone';
 
@@ -7,18 +8,13 @@ import Busy from './components/Busy';
 import { Widget, WidgetHeader, WidgetBody, WidgetFooter } from './components/Widget';
 import { DropzoneTitle, DropzoneSubtitle, DropzoneStyles } from './components/Dropzone';
 
-// Cannot import ipcRenderer directly without ejecting
-// const electron = window.require('electron');
-// const ipcRenderer  = electron.ipcRenderer;
-import { ipcRenderer } from 'electron';
-
 class App extends Component {
 
   constructor(props, context) {
     super(props, context);
     this.onDrop = this.onDrop.bind(this);
     this.onConversion = this.onConversion.bind(this);
-    this.state = { isOptimizing: false };
+    this.state = { isOptimizing: true };
   }
 
   componentDidMount() {
@@ -70,11 +66,12 @@ class App extends Component {
               rejectStyle={ DropzoneStyles.reject }
             >
               {({ isDragActive, isDragReject, acceptedFiles, rejectedFiles }) => {
-                if (isDragActive) return (
-                  <DropzoneTitle>Drop file(s) to start optimization</DropzoneTitle>
-                );
+                console.log(isDragActive, isDragReject);
                 if (isDragReject) return (
                   <DropzoneTitle>Only .png, .jpg, .gif and .svg files allowed</DropzoneTitle>
+                );
+                if (isDragActive) return (
+                  <DropzoneTitle>Drop file(s) to start optimization</DropzoneTitle>
                 );
                 return (
                   <div>

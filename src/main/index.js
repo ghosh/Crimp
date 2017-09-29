@@ -34,7 +34,7 @@ const createWindow = async () => {
   if (isDevMode) {
     BrowserWindow.addDevToolsExtension(
       '/Users/ghosh/Library/Application Support/Google/Chrome/' +
-      'default/Extensions/fmkadmapgofadopljbjfkapdkoienihi/2.5.1_0'
+      'default/Extensions/fmkadmapgofadopljbjfkapdkoienihi/2.5.2_0'
     );
   }
 
