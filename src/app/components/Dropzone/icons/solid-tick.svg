@@ -1,9 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="21" height="27" viewBox="0 0 21 27">
-  <g fill="none" fill-rule="evenodd" stroke-width="1.1" transform="translate(1 1)">
-    <path fill="#D8DDEF" stroke="#D8DDEF" stroke-linecap="round" stroke-linejoin="round" d="M19.436973,24.2021277 L19.436973,25 L0,25 L0,23.9361702 L0.00840154479,23.9361702 L0.00840154479,0 L12.0084015,0 L19.436973,6.91489362 L19.436973,24.2021277 Z M12.0084015,0 L12.0084015,7.06521739 L19.436973,7.06521739"/>
-    <g stroke="#8BC34A" transform="translate(5.556 11.957)">
-      <ellipse cx="4.444" cy="4.348" rx="4.444" ry="4.348"/>
-      <polyline stroke-linecap="round" stroke-linejoin="round" points="3.333 4.393 3.889 5.299 5.556 3.668"/>
-    </g>
+  <g fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" transform="translate(1 1)">
+    <path fill="#D8DDEF" stroke="#D8DDEF" stroke-width="1.1" d="M19.436973,24.2021277 L19.436973,25 L0,25 L0,23.9361702 L0.00840154479,23.9361702 L0.00840154479,0 L12.0084015,0 L19.436973,6.91489362 L19.436973,24.2021277 Z M12.0084015,0 L12.0084015,7.06521739 L19.436973,7.06521739"/>
+    <polyline stroke="#8BC34A" stroke-width="1.44" points="-1 1.778 .5 4 5 0" transform="translate(7.556 14.957)"/>
   </g>
 </svg>

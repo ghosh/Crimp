@@ -7,13 +7,13 @@ export const Icon = styled.svg`
   margin: 0 5px;
 `;
 
-const CheckIcon = (props) => (
+const PlayIcon = (props) => (
   <Icon xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 27">
     <g fill="none" fillRule="evenodd" strokeWidth="1.1" strokeLinecap="round" strokeLinejoin="round">
-      <path fill="#D8DDEF" stroke="#D8DDEF" strokeWidth="1.1" d="M20.437 25.202V26H1v-1.0638h.0084V1h12l7.4286 6.915v17.287zM13.0084 1v7.0652h7.4286" strokeLinecap="round" strokeLinejoin="round"/>
-      <path stroke="#8BC34A" strokeWidth="1.44" d="M7.556 17.735l1.5 2.222 4.5-4"/>
+	    <path fill="#D8DDEF" stroke="#D8DDEF" d="M19.8947 25.202V26H.56v-1.0638h.0084V1h11.937l7.3893 6.915v17.287zM12.5053 1v7.0652h7.3894"/>
+	    <path stroke="#EE5F55" d="M7.958 21.109v-6.522l6.253 3.261z"/>
     </g>
   </Icon>
 )
 
-export default CheckIcon;
+export default PlayIcon;

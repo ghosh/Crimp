@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="21" height="27" viewBox="0 0 21 27">
   <g fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.1" transform="translate(0 1)">
     <path fill="#D8DDEF" stroke="#D8DDEF" d="M19.8947368,24.2021277 L19.8947368,25 L0.560063726,25 L0.560063726,23.9361702 L0.568421053,23.9361702 L0.568421053,0 L12.5052632,0 L19.8947368,6.91489362 L19.8947368,24.2021277 Z M12.5052632,0 L12.5052632,7.06521739 L19.8947368,7.06521739"/>
-    <polygon stroke="#B8BFDA" points="7.958 20.109 7.958 13.587 14.211 16.848"/>
+    <polygon stroke="#EE5F55" points="7.958 20.109 7.958 13.587 14.211 16.848"/>
   </g>
 </svg>

@@ -2,6 +2,8 @@ import React from 'react';
 import styled, { keyframes } from 'styled-components';
 
 import FileIcon from './FileIcon';
+import PlayIcon from './PlayIcon';
+import SVGIcon from './SVGIcon';
 import CheckIcon from './CheckIcon';
 import Processor from './Processor';
 
@@ -36,12 +38,7 @@ const Conveyor = styled.div`
   }
 `;
 
-const moveRightBelt = keyframes`
-  from { transform: translate3d(0, 0, 0); }
-  from { transform: translate3d(-40px, 0, 0); }
-`;
-
-const moveLeftBelt = keyframes`
+const moveBelt = keyframes`
   from { transform: translate3d(0, 0, 0); }
   from { transform: translate3d(-40px, 0, 0); }
 `;
@@ -53,19 +50,13 @@ const Belt = styled.div`
 const LeftBelt = Belt.extend`
   position: absolute;
   left: 0px;
-  animation: ${moveLeftBelt} 1s linear infinite;
+  animation: ${moveBelt} 1s linear infinite;
 `;
 
 const RightBelt = Belt.extend`
   position: absolute;
   right: -40px;
-  animation: ${moveRightBelt} 1s linear infinite;
-`;
-
-export const Icon = styled.svg`
-  width: 30px;
-  height: 36px;
-  margin: 0 5px;
+  animation: ${moveBelt} 1s linear infinite;
 `;
 
 const Loader = ({ children }) => (
@@ -73,8 +64,8 @@ const Loader = ({ children }) => (
     <Conveyor>
       <LeftBelt>
         <FileIcon />
-        <FileIcon />
-        <FileIcon />
+        <PlayIcon />
+        <SVGIcon />
         <FileIcon />
       </LeftBelt>
       <Belt>
