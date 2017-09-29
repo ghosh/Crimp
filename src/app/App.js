@@ -6,7 +6,7 @@ import Title from './components/Title';
 import Button from './components/Button';
 import Busy from './components/Busy';
 import { Widget, WidgetHeader, WidgetBody, WidgetFooter } from './components/Widget';
-import { DropzoneTitle, DropzoneSubtitle, DropzoneStyles } from './components/Dropzone';
+import { DropzoneIcons, DropzoneTitle, DropzoneSubtitle, DropzoneStyles } from './components/Dropzone';
 
 class App extends Component {
 
@@ -14,7 +14,7 @@ class App extends Component {
     super(props, context);
     this.onDrop = this.onDrop.bind(this);
     this.onConversion = this.onConversion.bind(this);
-    this.state = { isOptimizing: true };
+    this.state = { isOptimizing: false };
   }
 
   componentDidMount() {
@@ -66,7 +66,6 @@ class App extends Component {
               rejectStyle={ DropzoneStyles.reject }
             >
               {({ isDragActive, isDragReject, acceptedFiles, rejectedFiles }) => {
-                console.log(isDragActive, isDragReject);
                 if (isDragReject) return (
                   <DropzoneTitle>Only .png, .jpg, .gif and .svg files allowed</DropzoneTitle>
                 );
@@ -75,6 +74,7 @@ class App extends Component {
                 );
                 return (
                   <div>
+                    <DropzoneIcons />
                     <DropzoneTitle>Drop files here to optimize</DropzoneTitle>
                     <DropzoneSubtitle>.jpg, .png, .gif and .svg accepted</DropzoneSubtitle>
                   </div>

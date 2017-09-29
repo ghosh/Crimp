@@ -1,3 +1,4 @@
+import DropzoneIcons from './DropzoneIcons';
 import DropzoneTitle from './DropzoneTitle';
 import DropzoneSubtitle from './DropzoneSubtitle';
 
@@ -22,4 +23,4 @@ const DropzoneStyles = {
   }
 };
 
-export { DropzoneTitle, DropzoneSubtitle, DropzoneStyles }
+export { DropzoneIcons, DropzoneTitle, DropzoneSubtitle, DropzoneStyles }

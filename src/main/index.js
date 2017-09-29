@@ -20,7 +20,7 @@ const createWindow = async () => {
     resizable: false,
     acceptFirstMouse: true,
     frame: false,
-    backgroundColor: '#141e2a',
+    backgroundColor: '#e6eaf5',
     show: false,
     // vibrancy: 'dark'
   })
