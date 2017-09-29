@@ -18,8 +18,8 @@ const StyledButton = styled.button`
 
   :disabled {
     cursor: no-drop;
-    background: #9a8cfb;
-    &:hover { background: #9a8cfb; }
+    background: #cec7ff;
+    &:hover { background: #cec7ff; }
   }
 `;
 

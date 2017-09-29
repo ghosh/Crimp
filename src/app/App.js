@@ -4,7 +4,7 @@ import Dropzone from 'react-dropzone';
 
 import Title from './components/Title';
 import Button from './components/Button';
-import Busy from './components/Busy';
+import Loader from './components/Loader';
 import { Widget, WidgetHeader, WidgetBody, WidgetFooter } from './components/Widget';
 import { DropzoneIcons, DropzoneTitle, DropzoneSubtitle, DropzoneStyles } from './components/Dropzone';
 
@@ -14,7 +14,7 @@ class App extends Component {
     super(props, context);
     this.onDrop = this.onDrop.bind(this);
     this.onConversion = this.onConversion.bind(this);
-    this.state = { isOptimizing: false };
+    this.state = { isOptimizing: true };
   }
 
   componentDidMount() {
@@ -53,9 +53,9 @@ class App extends Component {
         </WidgetHeader>
         <WidgetBody>
           {this.state.isOptimizing ? (
-            <Busy>
+            <Loader>
               <p>Optimizing...</p>
-            </Busy>
+            </Loader>
           ) : (
             <Dropzone
               onDrop={this.onDrop}
