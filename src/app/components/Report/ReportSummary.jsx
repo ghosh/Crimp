@@ -4,8 +4,7 @@ import styled, { keyframes } from 'styled-components';
 const StyledSummary = styled.div`
 	display: flex;
 	align-items: center;
-	background-color: #d8ddef;
-	border-radius: 3px;
+	height: 60px;
 `;
 
 const Tick = styled.svg`
@@ -18,10 +17,13 @@ const Tick = styled.svg`
 const Summary = styled.h1`
 	font-weight: bold;
 	margin-right: 10px;
+	color: #4C4D6C;
+	font-size: 17px;
 `;
 
 const Delta = styled.p`
 	color: #72b12a;
+	font-size: 13px;
 `;
 
 const ReportSummary = ({ children }) => (

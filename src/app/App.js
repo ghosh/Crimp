@@ -5,7 +5,7 @@ import Dropzone from 'react-dropzone';
 import Title from './components/Title';
 import Button from './components/Button';
 import Loader from './components/Loader';
-import { Report, ReportSummary } from './components/Report';
+import { Report, ReportSummary, ReportList } from './components/Report';
 import { Widget, WidgetHeader, WidgetBody, WidgetFooter } from './components/Widget';
 import { DropzoneIcons, DropzoneTitle, DropzoneSubtitle, DropzoneStyles } from './components/Dropzone';
 
@@ -66,6 +66,7 @@ class App extends Component {
           {this.state.status === REPORTING ? (
             <Report>
               <ReportSummary />
+              <ReportList />
             </Report>
           ) : ''}
 
@@ -104,15 +105,25 @@ class App extends Component {
 
         </WidgetBody>
         <WidgetFooter>
+
+          {this.state.status === READY ? (
+            <Button onClick={() => dropzoneRef.open()} >
+              Select Files
+            </Button>
+          ) : ''}
+
           {this.state.status === OPTIMIZING ? (
             <Button disabled={true} >
               Optimizing...
             </Button>
-          ) : (
-            <Button onClick={() => dropzoneRef.open()} >
-              Select Files
+          ) : ''}
+
+          {this.state.status === REPORTING ? (
+            <Button onClick={() => this.setState({ status: READY })} >
+              Reset
             </Button>
-          )}
+          ) : ''}
+
         </WidgetFooter>
       </Widget>
     );
