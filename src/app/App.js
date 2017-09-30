@@ -8,13 +8,17 @@ import Loader from './components/Loader';
 import { Widget, WidgetHeader, WidgetBody, WidgetFooter } from './components/Widget';
 import { DropzoneIcons, DropzoneTitle, DropzoneSubtitle, DropzoneStyles } from './components/Dropzone';
 
+const READY = 'READY';
+const OPTIMIZING = 'OPTIMIZING';
+const REPORTING = 'REPORTING';
+
 class App extends Component {
 
   constructor(props, context) {
     super(props, context);
     this.onDrop = this.onDrop.bind(this);
     this.onConversion = this.onConversion.bind(this);
-    this.state = { isOptimizing: true };
+    this.state = { status: READY };
   }
 
   componentDidMount() {
@@ -30,14 +34,14 @@ class App extends Component {
   }
 
   onConversion(event, status) {
-    this.setState({ isOptimizing: false });
+    this.setState({ status: REPORTING });
   }
 
   onDrop(acceptedFiles) {
     if (acceptedFiles.length < 1) return;
     const filePaths = acceptedFiles.map( file => file.path );
     ipcRenderer.send('files:submit', filePaths);
-    this.setState({ isOptimizing: true });
+    this.setState({ status: OPTIMIZING });
   }
 
   render() {
@@ -52,11 +56,13 @@ class App extends Component {
           </Title>
         </WidgetHeader>
         <WidgetBody>
-          {this.state.isOptimizing ? (
+          {this.state.status === OPTIMIZING ? (
             <Loader>
               <p>Optimizing...</p>
             </Loader>
-          ) : (
+          ) : ''}
+
+          {this.state.status === READY ? (
             <Dropzone
               onDrop={this.onDrop}
               ref={(node) => { dropzoneRef = node; }}
@@ -87,10 +93,11 @@ class App extends Component {
                 );
               }}
             </Dropzone>
-          )}
+          ) : ''}
+
         </WidgetBody>
         <WidgetFooter>
-          {this.state.isOptimizing ? (
+          {this.state.status === OPTIMIZING ? (
             <Button disabled={true} >
               Optimizing...
             </Button>
