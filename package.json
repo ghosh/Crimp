@@ -11,7 +11,15 @@
     "publish": "electron-forge publish",
     "lint": "echo \"No linting configured\""
   },
-  "keywords": ["compression", "mac", "electron", "jpg", "electron", "minification", "mac app"],
+  "keywords": [
+    "compression",
+    "mac",
+    "electron",
+    "jpg",
+    "electron",
+    "minification",
+    "mac app"
+  ],
   "author": "ghosh",
   "license": "MIT",
   "config": {

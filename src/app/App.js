@@ -5,6 +5,7 @@ import Dropzone from 'react-dropzone';
 import Title from './components/Title';
 import Button from './components/Button';
 import Loader from './components/Loader';
+import { Report, ReportSummary } from './components/Report';
 import { Widget, WidgetHeader, WidgetBody, WidgetFooter } from './components/Widget';
 import { DropzoneIcons, DropzoneTitle, DropzoneSubtitle, DropzoneStyles } from './components/Dropzone';
 
@@ -18,7 +19,7 @@ class App extends Component {
     super(props, context);
     this.onDrop = this.onDrop.bind(this);
     this.onConversion = this.onConversion.bind(this);
-    this.state = { status: READY };
+    this.state = { status: REPORTING };
   }
 
   componentDidMount() {
@@ -60,6 +61,12 @@ class App extends Component {
             <Loader>
               <p>Optimizing...</p>
             </Loader>
+          ) : ''}
+
+          {this.state.status === REPORTING ? (
+            <Report>
+              <ReportSummary />
+            </Report>
           ) : ''}
 
           {this.state.status === READY ? (
