@@ -34,7 +34,7 @@
         "appBundleId": "io.ghosh.crimp",
         "appCategoryType": "public.app-category.productivity",
         "packageManager": "yarn",
-        "icon": "src/assets/crimp.icns"
+        "icon": "assets/crimp.icns"
       },
       "electronInstallerDMG": {
         "name": "Crimp"

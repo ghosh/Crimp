@@ -105,7 +105,6 @@ export default class FilesHandler {
       imagePath: files[0]
     })
 
-    console.log(fileData);
     console.log(`Saved ${deltaBytes}, thats a ${deltaPerct}% ↓ in size`);
     event.sender.send('files:optimized', fileData, { deltaBytes, deltaPerct });
   }
