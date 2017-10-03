@@ -19,7 +19,11 @@ class App extends Component {
     super(props, context);
     this.onDrop = this.onDrop.bind(this);
     this.onConversion = this.onConversion.bind(this);
-    this.state = { status: READY };
+    this.state = {
+      status: READY,
+      delta: null,
+      files: null
+    };
   }
 
   componentDidMount() {
@@ -36,7 +40,11 @@ class App extends Component {
 
   onConversion(event, fileData, delta) {
     console.log(fileData, delta);
-    this.setState({ status: REPORTING });
+    this.setState({
+      status: REPORTING,
+      delta: delta,
+      files: fileData
+    });
   }
 
   onDrop(acceptedFiles) {
@@ -66,8 +74,11 @@ class App extends Component {
 
           {this.state.status === REPORTING ? (
             <Report>
-              <ReportSummary />
-              <ReportList />
+              <ReportSummary
+                deltaPerct={ this.state.delta.deltaPerct }
+                deltaBytes={ this.state.delta.deltaBytes }
+              />
+              <ReportList files={ this.state.files } />
             </Report>
           ) : ''}
 

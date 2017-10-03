@@ -16,7 +16,11 @@ const List = styled.ul`
 const ListItem = styled.li`
 	display: flex;
 	align-items: center;
-	padding: 10px 0;
+	padding: 13px 0;
+	border-bottom: solid 1px #d0d5e8;
+	&:last-child {
+		border-bottom: 0;
+	}
 `;
 
 const ListData = styled.div`
@@ -42,62 +46,30 @@ const FileSummary = styled.p`
 const FileImage = styled.div`
 	width: 35px;
 	height: 35px;
-	background-image: url('./components/Report/image.png');
 	background-size: cover;
 	background-position: top center;
 	margin-right: 8px;
 `;
 
 
-const ReportList = ({ children }) => (
+const ReportList = ({ files }) => (
 	<List>
-		<ListItem>
-			<FileImage />
-			<ListData>
-				<FileName>screenshot.png</FileName>
-				<FileSummary>23kb saved, ▼ 24.5%</FileSummary>
-			</ListData>
-		</ListItem>
 
-		<ListItem>
-			<FileImage />
-			<ListData>
-				<FileName>screenshot.png</FileName>
-				<FileSummary>23kb saved, ▼ 24.5%</FileSummary>
-			</ListData>
-		</ListItem>
-
-		<ListItem>
-			<FileImage />
-			<ListData>
-				<FileName>screenshot.png</FileName>
-				<FileSummary>23kb saved, ▼ 24.5%</FileSummary>
-			</ListData>
-		</ListItem>
-
-		<ListItem>
-			<FileImage />
-			<ListData>
-				<FileName>screenshot.png</FileName>
-				<FileSummary>23kb saved, ▼ 24.5%</FileSummary>
-			</ListData>
-		</ListItem>
-
-		<ListItem>
-			<FileImage />
-			<ListData>
-				<FileName>screenshot.png</FileName>
-				<FileSummary>23kb saved, ▼ 24.5%</FileSummary>
-			</ListData>
-		</ListItem>
-
-		<ListItem>
-			<FileImage />
-			<ListData>
-				<FileName>screenshot.png</FileName>
-				<FileSummary>23kb saved, ▼ 24.5%</FileSummary>
-			</ListData>
-		</ListItem>
+		{Object.keys(files).map((key) => {
+			const file = files[key];
+			const fileImgStyles = {
+				backgroundImage: `url(${file.path})`
+			}
+			return (
+				<ListItem key={key}>
+					<FileImage style={fileImgStyles} />
+					<ListData>
+						<FileName>{file.fileName}</FileName>
+						<FileSummary>{file.deltaBytes} saved,   ▼ {file.deltaPerct}%</FileSummary>
+					</ListData>
+				</ListItem>
+			);
+		})}
 
 	</List>
 )
