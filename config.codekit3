@@ -1941,7 +1941,7 @@
 		"uL": 1
 		},
 	"\/src\/styles\/crimp.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -1950,7 +1950,7 @@
 		"oA": 0,
 		"oAP": "\/build\/crimp.css",
 		"oF": 2,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		}
 	},
