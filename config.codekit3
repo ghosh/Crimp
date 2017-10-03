@@ -25,6 +25,28 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/build\/images\/favicon-16x16.png": {
+		"ft": 32768,
+		"iS": 332,
+		"oA": 0,
+		"oAP": "\/build\/images\/favicon-16x16.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/build\/images\/favicon-32x32.png": {
+		"ft": 32768,
+		"iS": 592,
+		"oA": 0,
+		"oAP": "\/build\/images\/favicon-32x32.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/build\/images\/image.png": {
 		"ft": 32768,
 		"iS": 34595,
@@ -1001,6 +1023,90 @@
 		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.babelrc",
 		"oF": 0
 		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/4e1a5069de66f1b2f52927c2388cdfb0756c1285\/0fa075c0a8c942e1c7455c4dce72013197590c31": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/4e1a5069de66f1b2f52927c2388cdfb0756c1285\/0fa075c0a8c942e1c7455c4dce72013197590c31",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/4e1a5069de66f1b2f52927c2388cdfb0756c1285\/13351de518eadcb0defed2f759ac3a5e50913d7f": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/4e1a5069de66f1b2f52927c2388cdfb0756c1285\/13351de518eadcb0defed2f759ac3a5e50913d7f",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/4e1a5069de66f1b2f52927c2388cdfb0756c1285\/5c34382099f9a9aaa9fca6615939c1a36927dbab": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/4e1a5069de66f1b2f52927c2388cdfb0756c1285\/5c34382099f9a9aaa9fca6615939c1a36927dbab",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/4e1a5069de66f1b2f52927c2388cdfb0756c1285\/82d8be14f52d1d33706585f2e79a7f6dd0a76eec": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/4e1a5069de66f1b2f52927c2388cdfb0756c1285\/82d8be14f52d1d33706585f2e79a7f6dd0a76eec",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/4e1a5069de66f1b2f52927c2388cdfb0756c1285\/897e76c7c3a1b2610b307b650d70827b1cd2eca6": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/4e1a5069de66f1b2f52927c2388cdfb0756c1285\/897e76c7c3a1b2610b307b650d70827b1cd2eca6",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/4e1a5069de66f1b2f52927c2388cdfb0756c1285\/8eb427ec99015d3a22933bb2bbdb0bbfe463c715": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/4e1a5069de66f1b2f52927c2388cdfb0756c1285\/8eb427ec99015d3a22933bb2bbdb0bbfe463c715",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/4e1a5069de66f1b2f52927c2388cdfb0756c1285\/8eb427ec99015d3a22933bb2bbdb0bbfe463c715.info": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/4e1a5069de66f1b2f52927c2388cdfb0756c1285\/8eb427ec99015d3a22933bb2bbdb0bbfe463c715.info",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/4e1a5069de66f1b2f52927c2388cdfb0756c1285\/abea154c5243cd67579427158d9d7b243bbbc4b6": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/4e1a5069de66f1b2f52927c2388cdfb0756c1285\/abea154c5243cd67579427158d9d7b243bbbc4b6",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/4e1a5069de66f1b2f52927c2388cdfb0756c1285\/c379fb590e56d072ffb5716f359f4724d63a03ec": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/4e1a5069de66f1b2f52927c2388cdfb0756c1285\/c379fb590e56d072ffb5716f359f4724d63a03ec",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/4e1a5069de66f1b2f52927c2388cdfb0756c1285\/d3e309c39cbc9f6d2de16a6a020362c5e6abcf6c": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/4e1a5069de66f1b2f52927c2388cdfb0756c1285\/d3e309c39cbc9f6d2de16a6a020362c5e6abcf6c",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/4e1a5069de66f1b2f52927c2388cdfb0756c1285\/e025e78a535d696ebfb79e95c1e591d527c736b3": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/4e1a5069de66f1b2f52927c2388cdfb0756c1285\/e025e78a535d696ebfb79e95c1e591d527c736b3",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/4e1a5069de66f1b2f52927c2388cdfb0756c1285\/e9aa9544b0f4a2a2d56e7f71df6f9e9df85ccd51": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/4e1a5069de66f1b2f52927c2388cdfb0756c1285\/e9aa9544b0f4a2a2d56e7f71df6f9e9df85ccd51",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/4e1a5069de66f1b2f52927c2388cdfb0756c1285\/efff99490d475aad37cf0492ee9418d7bda2ba80": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/4e1a5069de66f1b2f52927c2388cdfb0756c1285\/efff99490d475aad37cf0492ee9418d7bda2ba80",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/4e1a5069de66f1b2f52927c2388cdfb0756c1285\/f49bb4a1c3ae57e02513850e05e2e8837284c61a": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/4e1a5069de66f1b2f52927c2388cdfb0756c1285\/f49bb4a1c3ae57e02513850e05e2e8837284c61a",
+		"oF": 0
+		},
 	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/0656b071a9290e4fbcf8ee190e53393d5ba1af68": {
 		"ft": 8192,
 		"oA": 2,
@@ -1025,40 +1131,46 @@
 		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/0c52015899a49d747d8f98388409a2eb5b294a9e",
 		"oF": 0
 		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/1190b096a2c636daff1a0e61a190642f65ed5d22": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/1190b096a2c636daff1a0e61a190642f65ed5d22",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/1236a12ac80367ba5dca66cb0f4813d5244c111a": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/1236a12ac80367ba5dca66cb0f4813d5244c111a",
+		"oF": 0
+		},
 	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/193a2cc7202b0e2918b8718c4ace003c607020a3": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/193a2cc7202b0e2918b8718c4ace003c607020a3",
 		"oF": 0
 		},
-	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/35eb3b74b075885b13d444988816bb860c028d60": {
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/3fb380ea64338efa1ac8bb836e38dd97c147f9fa": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/35eb3b74b075885b13d444988816bb860c028d60",
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/3fb380ea64338efa1ac8bb836e38dd97c147f9fa",
 		"oF": 0
 		},
-	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/46c5323980f3263528d2bd82558c62e416aa7bcf": {
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/40d91baf6f121b3b936ebf685855ec91e75ab05c": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/46c5323980f3263528d2bd82558c62e416aa7bcf",
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/40d91baf6f121b3b936ebf685855ec91e75ab05c",
 		"oF": 0
 		},
-	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/4e91325e26311725abcb088558c1e576cf7b7b75": {
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/527d2aefca37aaa297de89c07bd60a13345327fb": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/4e91325e26311725abcb088558c1e576cf7b7b75",
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/527d2aefca37aaa297de89c07bd60a13345327fb",
 		"oF": 0
 		},
-	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/519dc1efec8d87f0eee3b44cf660effff0609828": {
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/5ba59b0277b2105080a324d5c4552ac61f6bd3d4": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/519dc1efec8d87f0eee3b44cf660effff0609828",
-		"oF": 0
-		},
-	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/57fbbd6f173d8b2319a5aa5043dc86ee23dd9fce": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/57fbbd6f173d8b2319a5aa5043dc86ee23dd9fce",
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/5ba59b0277b2105080a324d5c4552ac61f6bd3d4",
 		"oF": 0
 		},
 	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/5e035b55d4ce12db064fc7406e2e3d69362237c8": {
@@ -1067,10 +1179,16 @@
 		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/5e035b55d4ce12db064fc7406e2e3d69362237c8",
 		"oF": 0
 		},
-	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/5e36f6019028773db2361bcd71e0999cf999029c": {
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/619bfe7f8a6728037372cc4f95cd2b45eb0c4909": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/5e36f6019028773db2361bcd71e0999cf999029c",
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/619bfe7f8a6728037372cc4f95cd2b45eb0c4909",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/72d4a22172c9bda3a41efa617b23660ce8e4de8a": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/72d4a22172c9bda3a41efa617b23660ce8e4de8a",
 		"oF": 0
 		},
 	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/81ae3066808c7f42378ac4f304fc157a3f474946": {
@@ -1079,10 +1197,10 @@
 		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/81ae3066808c7f42378ac4f304fc157a3f474946",
 		"oF": 0
 		},
-	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/98558a45ecb6f18d299d6f69c75ef07a64e4fa7f": {
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/969154c8945c5408cd0c7359bbaf2d94d9cf4675": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/98558a45ecb6f18d299d6f69c75ef07a64e4fa7f",
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/969154c8945c5408cd0c7359bbaf2d94d9cf4675",
 		"oF": 0
 		},
 	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/a9ecc2dabe81d893453a80c47de35abf880e1bf7": {
@@ -1091,10 +1209,10 @@
 		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/a9ecc2dabe81d893453a80c47de35abf880e1bf7",
 		"oF": 0
 		},
-	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/b78628d7309f1f783bc26324df54558478ef2a87": {
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/ad59fad2d939041b08d7b7a7b56f18fe637a2339": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/b78628d7309f1f783bc26324df54558478ef2a87",
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/ad59fad2d939041b08d7b7a7b56f18fe637a2339",
 		"oF": 0
 		},
 	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/b8a83afc81adad40974ed8e9fb70c2e618976a1c": {
@@ -1103,10 +1221,40 @@
 		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/b8a83afc81adad40974ed8e9fb70c2e618976a1c",
 		"oF": 0
 		},
-	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/dc3daf909362ad94c500129211a91bb70876d3fc": {
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/bbc950f76389bb18964a84c95dbf2d68a20209b1": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/dc3daf909362ad94c500129211a91bb70876d3fc",
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/bbc950f76389bb18964a84c95dbf2d68a20209b1",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/bcbc2b5cf1ad25a4ff1201e0513dc8dde04d9a10": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/bcbc2b5cf1ad25a4ff1201e0513dc8dde04d9a10",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/c3dc895b44ff573c8e3886d4fa2ad1a74feb87ca": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/c3dc895b44ff573c8e3886d4fa2ad1a74feb87ca",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/c66b87ba35316d019f56d81ca307a8039173ba5b": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/c66b87ba35316d019f56d81ca307a8039173ba5b",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/d81fd8583029b6e428a4462b3cff234600ed7bc4": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/d81fd8583029b6e428a4462b3cff234600ed7bc4",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/d8cf93760e2aa7fa109ae8529b6be9d9002c277c": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/d8cf93760e2aa7fa109ae8529b6be9d9002c277c",
 		"oF": 0
 		},
 	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/e341e13120519de58316005c4329aebf2898e0a4": {
@@ -1115,10 +1263,40 @@
 		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/e341e13120519de58316005c4329aebf2898e0a4",
 		"oF": 0
 		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/e3a1480e77fb36d2dcae7ebb640470e0a333d063": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/e3a1480e77fb36d2dcae7ebb640470e0a333d063",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/e87d50378e45fc374cd82bc19ea248fbfa86e4d7": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/e87d50378e45fc374cd82bc19ea248fbfa86e4d7",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/f73f10e3a92d184656817c0aa9c403f62c300bb9": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/f73f10e3a92d184656817c0aa9c403f62c300bb9",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/f7a1c056d7e07fd9d5820ff0d61da9ee44e948d5": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/f7a1c056d7e07fd9d5820ff0d61da9ee44e948d5",
+		"oF": 0
+		},
 	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/fc2487b28912394c318a91d57283aa35b092ea80": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/fc2487b28912394c318a91d57283aa35b092ea80",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/fec5f375bd576c776c280d29f597b4f5ebe878b6": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/fec5f375bd576c776c280d29f597b4f5ebe878b6",
 		"oF": 0
 		},
 	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/compiler-info.json.gz": {
@@ -1127,16 +1305,22 @@
 		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/compiler-info.json.gz",
 		"oF": 0
 		},
-	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/ebbeac2ce84da83b22b0c3c7f56b2cf07dc8d634\/f923362b8688c9d3b3c37aee7cc68dead863f154": {
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/ebbeac2ce84da83b22b0c3c7f56b2cf07dc8d634\/c5111d73a013caccddd0f5895412adee4a028e9e": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/ebbeac2ce84da83b22b0c3c7f56b2cf07dc8d634\/f923362b8688c9d3b3c37aee7cc68dead863f154",
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/ebbeac2ce84da83b22b0c3c7f56b2cf07dc8d634\/c5111d73a013caccddd0f5895412adee4a028e9e",
 		"oF": 0
 		},
 	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.compilerc": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.compilerc",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.editorconfig": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.editorconfig",
 		"oF": 0
 		},
 	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.eslintrc": {
@@ -1149,6 +1333,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.gitignore",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/assets\/crimp.icns": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/assets\/crimp.icns",
 		"oF": 0
 		},
 	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/es6-shim.js": {
@@ -1205,6 +1395,16 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/app\/components\/Dropzone\/DropzoneIcons.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/app\/components\/Dropzone\/DropzoneIcons-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/app\/components\/Dropzone\/DropzoneSubtitle.js": {
 		"ft": 64,
 		"ma": 0,
@@ -1225,6 +1425,116 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/app\/components\/Dropzone\/icons\/gif.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/app\/components\/Dropzone\/icons\/gif.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/app\/components\/Dropzone\/icons\/hand.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/app\/components\/Dropzone\/icons\/hand.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/app\/components\/Dropzone\/icons\/image.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/app\/components\/Dropzone\/icons\/image.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/app\/components\/Dropzone\/icons\/logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/app\/components\/Dropzone\/icons\/logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/app\/components\/Dropzone\/icons\/solid-gif.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/app\/components\/Dropzone\/icons\/solid-gif.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/app\/components\/Dropzone\/icons\/solid-image.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/app\/components\/Dropzone\/icons\/solid-image.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/app\/components\/Dropzone\/icons\/solid-svg.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/app\/components\/Dropzone\/icons\/solid-svg.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/app\/components\/Dropzone\/icons\/solid-tick.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/app\/components\/Dropzone\/icons\/solid-tick.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/app\/components\/Dropzone\/icons\/stop.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/app\/components\/Dropzone\/icons\/stop.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/app\/components\/Dropzone\/icons\/svg.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/app\/components\/Dropzone\/icons\/svg.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/app\/components\/Dropzone\/icons\/tick.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/app\/components\/Dropzone\/icons\/tick.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/app\/components\/Dropzone\/index.js": {
 		"ft": 64,
 		"ma": 0,
@@ -1235,12 +1545,143 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/app\/components\/Loader\/CheckIcon.jsx": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/app\/components\/Loader\/CheckIcon-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/app\/components\/Loader\/FileIcon.jsx": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/app\/components\/Loader\/FileIcon-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/app\/components\/Loader\/index.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/app\/components\/Loader\/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/app\/components\/Loader\/PlayIcon.jsx": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/app\/components\/Loader\/PlayIcon-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/app\/components\/Loader\/Processor.jsx": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/app\/components\/Loader\/Processor-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/app\/components\/Loader\/SVGIcon.jsx": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/app\/components\/Loader\/SVGIcon-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/app\/components\/Report\/icons\/check.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/app\/components\/Report\/icons\/check.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/app\/components\/Report\/image.png": {
+		"ft": 32768,
+		"iS": 57936,
+		"oA": 0,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/app\/components\/Report\/image.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/app\/components\/Report\/index.jsx": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/app\/components\/Report\/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/app\/components\/Report\/Report.jsx": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/app\/components\/Report\/Report-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/app\/components\/Report\/ReportList.jsx": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/app\/components\/Report\/ReportList-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/app\/components\/Report\/ReportSummary.jsx": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/app\/components\/Report\/ReportSummary-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/app\/components\/Title\/index.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/app\/components\/Title\/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/app\/components\/Utils\/index.jsx": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/app\/components\/Utils\/index-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -1299,12 +1740,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/app\/index.html",
-		"oF": 0
-		},
-	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/assets\/crimp.icns": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/assets\/crimp.icns",
 		"oF": 0
 		},
 	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/src\/main\/index.js": {
