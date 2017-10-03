@@ -57,7 +57,8 @@ const ReportList = ({ files }) => (
 
     {Object.keys(files).map((key) => {
       const file = files[key];
-      const fileImgStyles = { backgroundImage: `url(${file.path})` }
+      // const fileImgStyles = { backgroundImage: `url(${file.path})` }
+      const fileImgStyles = { backgroundImage: `url("${encodeURI(file.path)}")` }
       return (
         <ListItem key={key}>
           <FileImage style={fileImgStyles} />

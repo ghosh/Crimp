@@ -50,6 +50,7 @@ class App extends Component {
   onDrop(acceptedFiles) {
     if (acceptedFiles.length < 1) return;
     const filePaths = acceptedFiles.map( file => file.path );
+    console.log(filePaths);
     ipcRenderer.send('files:submit', filePaths);
     this.setState({ status: OPTIMIZING });
   }
