@@ -39,7 +39,6 @@ class App extends Component {
   }
 
   onConversion(event, fileData, delta) {
-    console.log(fileData, delta);
     this.setState({
       status: REPORTING,
       delta: delta,
@@ -50,7 +49,6 @@ class App extends Component {
   onDrop(acceptedFiles) {
     if (acceptedFiles.length < 1) return;
     const filePaths = acceptedFiles.map( file => file.path );
-    console.log(filePaths);
     ipcRenderer.send('files:submit', filePaths);
     this.setState({ status: OPTIMIZING });
   }

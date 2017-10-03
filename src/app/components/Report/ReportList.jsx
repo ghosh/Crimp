@@ -10,7 +10,8 @@ const List = styled.ul`
   background-color: #d8ddef;
   color: #4C4D6C;
   height: 275px;
-  overflow: scroll;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
 `;
 
 const ListItem = styled.li`
@@ -18,6 +19,7 @@ const ListItem = styled.li`
   align-items: center;
   padding: 13px 0;
   border-bottom: solid 1px #d0d5e8;
+
   &:last-child {
     border-bottom: 0;
   }
@@ -34,6 +36,10 @@ const FileName = styled.p`
   font-size: 13px;
   margin-bottom: 5px;
   line-height: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 210px;
 `;
 
 const FileSummary = styled.p`
