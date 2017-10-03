@@ -19,7 +19,7 @@ class App extends Component {
     super(props, context);
     this.onDrop = this.onDrop.bind(this);
     this.onConversion = this.onConversion.bind(this);
-    this.state = { status: REPORTING };
+    this.state = { status: READY };
   }
 
   componentDidMount() {
@@ -34,7 +34,8 @@ class App extends Component {
     return true;
   }
 
-  onConversion(event, status) {
+  onConversion(event, fileData, delta) {
+    console.log(fileData, delta);
     this.setState({ status: REPORTING });
   }
 

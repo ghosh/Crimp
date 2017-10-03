@@ -21,13 +21,13 @@ const imageMinPlugins = [
 
 export default class FilesHandler {
 
-
   constructor(props, context) {
     this.notify = this.notify.bind(this);
     this.optimize = this.optimize.bind(this);
     this.msToHuman = this.msToHuman.bind(this);
-    this.processData = this.processData.bind(this);
     this.optimizeFile = this.optimizeFile.bind(this);
+    this.calculateDelta = this.calculateDelta.bind(this);
+    this.calculateTotDelta = this.calculateTotDelta.bind(this);
   }
 
 
@@ -40,10 +40,7 @@ export default class FilesHandler {
     return (minutes > 60000) ? `${minutes}m ${seconds}s` : `${seconds} seconds`;
   }
 
-
-  async processData(totalOriginalSize, totalOptimizedSize) {
-    const originalSize = totalOriginalSize.reduce( (acc, num) => acc + num );
-    const optimizedSize = totalOptimizedSize.reduce( (acc, num) => acc + num );
+  async calculateDelta(originalSize, optimizedSize) {
     const saved = originalSize - optimizedSize;
     const percent = originalSize > 0 ? (saved / originalSize) * 100 : 0;
     const zeroSum = saved > 0 ? false : true;
@@ -51,6 +48,14 @@ export default class FilesHandler {
     const deltaPerct = percent.toFixed(1).replace(/\.0$/, '');
     const deltaBytes = prettyBytes(saved);
 
+    return { deltaPerct, deltaBytes };
+  }
+
+  async calculateTotDelta(totalOriginalSize, totalOptimizedSize) {
+    const originalSize = totalOriginalSize.reduce( (acc, num) => acc + num );
+    const optimizedSize = totalOptimizedSize.reduce( (acc, num) => acc + num );
+
+    const { deltaPerct, deltaBytes } = await this.calculateDelta(originalSize, optimizedSize);
     return { deltaPerct, deltaBytes };
   }
 
@@ -70,18 +75,26 @@ export default class FilesHandler {
     const startTime = new Date();
     let totalOriginalSize = [];
     let totalOptimizedSize = [];
+    let fileData = {};
 
     // Runs file optimizations in parallel
     // Stackoverflow:- https://goo.gl/wGdkog
-    await Promise.all(files.map(async (file) => {
+    await Promise.all(files.map(async (file, index) => {
       const {status, originalSize, optimizedSize} = await this.optimizeFile(file);
-      if (status) {
-        totalOriginalSize.push(originalSize);
-        totalOptimizedSize.push(optimizedSize);
-      }
+
+      totalOriginalSize.push(originalSize);
+      totalOptimizedSize.push(optimizedSize);
+
+      const { deltaPerct, deltaBytes } = await this.calculateDelta(originalSize, optimizedSize);
+
+      fileData[index] = {};
+      fileData[index]['path'] = file;
+      fileData[index]['fileName'] = file.replace(/^.*[\\\/]/, '');
+      fileData[index]['deltaPerct'] = deltaPerct;
+      fileData[index]['deltaBytes'] = deltaBytes;
     }));
 
-    const { deltaPerct, deltaBytes } = await this.processData(totalOriginalSize, totalOptimizedSize);
+    const { deltaPerct, deltaBytes } = await this.calculateTotDelta(totalOriginalSize, totalOptimizedSize);
     const deltaTime = await this.msToHuman( new Date() - startTime );
 
     this.notify({
@@ -92,8 +105,9 @@ export default class FilesHandler {
       imagePath: files[0]
     })
 
+    console.log(fileData);
     console.log(`Saved ${deltaBytes}, thats a ${deltaPerct}% ↓ in size`);
-    event.sender.send('files:optimized', true);
+    event.sender.send('files:optimized', fileData, { deltaBytes, deltaPerct });
   }
 
 
