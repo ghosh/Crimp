@@ -16,6 +16,7 @@ body {
   height: 100vh;
   display: flex;
   width: 100%;
+  background-color: #222337;
 }
 
 header svg {
@@ -38,6 +39,7 @@ header svg {
 .aside {
   display: none;
     @media only screen and (min-width: 720px)  {
+      margin: 20px 20px 20px 0;
       width: 45%;
       display: flex;
       justify-content: center;
