@@ -103,6 +103,9 @@ export default class FilesHandler {
     const { deltaPerct, deltaBytes } = await this.calculateTotDelta(totalOriginalSize, totalOptimizedSize);
     const deltaTime = await this.msToHuman( new Date() - startTime );
 
+    console.log(`Saved ${deltaBytes}, thats a ${deltaPerct}% ↓ in size`);
+    event.sender.send('files:optimized', fileData, { deltaBytes, deltaPerct });
+
     this.notify({
       numFiles: files.length,
       timeTaken: deltaTime,
@@ -111,8 +114,6 @@ export default class FilesHandler {
       imagePath: files[0]
     })
 
-    console.log(`Saved ${deltaBytes}, thats a ${deltaPerct}% ↓ in size`);
-    event.sender.send('files:optimized', fileData, { deltaBytes, deltaPerct });
   }
 
 
