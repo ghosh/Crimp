@@ -29,6 +29,11 @@
           "zip"
         ]
       },
+      "publish_targets": {
+        "darwin": [
+          "github"
+        ]
+      },
       "electronPackagerConfig": {
         "appCopyright": "Created by Indrashish Ghosh\nCopyright © 2017 www.ghosh.io",
         "appBundleId": "io.ghosh.crimp",
@@ -41,7 +46,8 @@
       },
       "github_repository": {
         "owner": "Ghosh",
-        "name": "Crimp"
+        "name": "Crimp",
+        "draft": true
       }
     }
   },
