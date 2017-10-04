@@ -25,6 +25,17 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/build\/images\/Crimp.png": {
+		"ft": 32768,
+		"iS": 32927,
+		"oA": 0,
+		"oAP": "\/build\/images\/Crimp.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/build\/images\/favicon-16x16.png": {
 		"ft": 32768,
 		"iS": 332,
@@ -73,6 +84,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/build\/index.html",
+		"oF": 0
+		},
+	"\/build\/video\/Crimp.mp4": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/video\/Crimp.mp4",
 		"oF": 0
 		},
 	"\/node_modules": {
@@ -1119,6 +1136,12 @@
 		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/08519784c9b0e7acb7484a3b429e53dc74ef0f70",
 		"oF": 0
 		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/08d81c9c42821122905c096dd50faad9c0a8c268": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/08d81c9c42821122905c096dd50faad9c0a8c268",
+		"oF": 0
+		},
 	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/0a3fc20938acbfae77e70f35fbbc7e4053ea2ac2": {
 		"ft": 8192,
 		"oA": 2,
@@ -1137,22 +1160,22 @@
 		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/1190b096a2c636daff1a0e61a190642f65ed5d22",
 		"oF": 0
 		},
-	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/1236a12ac80367ba5dca66cb0f4813d5244c111a": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/1236a12ac80367ba5dca66cb0f4813d5244c111a",
-		"oF": 0
-		},
 	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/193a2cc7202b0e2918b8718c4ace003c607020a3": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/193a2cc7202b0e2918b8718c4ace003c607020a3",
 		"oF": 0
 		},
-	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/3fb380ea64338efa1ac8bb836e38dd97c147f9fa": {
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/34b411d6a48ff28b5ed4ebeaf1cd4caa3ceb245a": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/3fb380ea64338efa1ac8bb836e38dd97c147f9fa",
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/34b411d6a48ff28b5ed4ebeaf1cd4caa3ceb245a",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/3868b3a89debb8d0dfdeadb7aadd1bb1fde58b7f": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/3868b3a89debb8d0dfdeadb7aadd1bb1fde58b7f",
 		"oF": 0
 		},
 	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/40d91baf6f121b3b936ebf685855ec91e75ab05c": {
@@ -1185,16 +1208,16 @@
 		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/72d4a22172c9bda3a41efa617b23660ce8e4de8a",
 		"oF": 0
 		},
-	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/7cc5cd7a61271104e49f7c6afbeed6da08dc2736": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/7cc5cd7a61271104e49f7c6afbeed6da08dc2736",
-		"oF": 0
-		},
 	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/81ae3066808c7f42378ac4f304fc157a3f474946": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/81ae3066808c7f42378ac4f304fc157a3f474946",
+		"oF": 0
+		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/826835ec5999ed42c4b8282b08a6fed37b4cae32": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/826835ec5999ed42c4b8282b08a6fed37b4cae32",
 		"oF": 0
 		},
 	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/969154c8945c5408cd0c7359bbaf2d94d9cf4675": {
@@ -1221,10 +1244,10 @@
 		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/b8a83afc81adad40974ed8e9fb70c2e618976a1c",
 		"oF": 0
 		},
-	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/bbc950f76389bb18964a84c95dbf2d68a20209b1": {
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/ba66519f750159a470236fc00d2efeb09e1d0a9b": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/bbc950f76389bb18964a84c95dbf2d68a20209b1",
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/ba66519f750159a470236fc00d2efeb09e1d0a9b",
 		"oF": 0
 		},
 	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/bcbc2b5cf1ad25a4ff1201e0513dc8dde04d9a10": {
@@ -1279,12 +1302,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/f73f10e3a92d184656817c0aa9c403f62c300bb9",
-		"oF": 0
-		},
-	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/f7a1c056d7e07fd9d5820ff0d61da9ee44e948d5": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/f7a1c056d7e07fd9d5820ff0d61da9ee44e948d5",
 		"oF": 0
 		},
 	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/.cache\/93508d5ae2eeff19779932403f875293dc95ba3f\/fc2487b28912394c318a91d57283aa35b092ea80": {
@@ -1822,6 +1839,12 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/yarn-error.log": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/yarn-error.log",
+		"oF": 0
+		},
 	"\/out\/Crimp-darwin-x64\/Crimp.app\/Contents\/Resources\/app\/yarn.lock": {
 		"ft": 8192,
 		"oA": 2,
@@ -1858,11 +1881,28 @@
 		"oAP": "\/out\/Crimp-darwin-x64\/version",
 		"oF": 0
 		},
-	"\/out\/make\/Crimp-darwin-x64-0.1.0.zip": {
+	"\/out\/make\/Crimp-darwin-x64-0.2.0.zip": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/out\/make\/Crimp-darwin-x64-0.1.0.zip",
+		"oAP": "\/out\/make\/Crimp-darwin-x64-0.2.0.zip",
 		"oF": 0
+		},
+	"\/src\/images\/Crimp.png": {
+		"ft": 32768,
+		"iS": 103749,
+		"oA": 0,
+		"oAP": "\/src\/images\/crimp.png",
+		"oF": 2,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/images\/crimp.webp": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/images\/crimp.webp",
+		"oF": 2
 		},
 	"\/src\/images\/favicon-16x16.png": {
 		"ft": 32768,
@@ -1952,6 +1992,12 @@
 		"oF": 2,
 		"oS": 0,
 		"uL": 1
+		},
+	"\/src\/video\/Crimp.mp4": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/video\/Crimp.mp4",
+		"oF": 2
 		}
 	},
 "hooks": [

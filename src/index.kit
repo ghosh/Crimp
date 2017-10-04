@@ -30,7 +30,8 @@
         Simplest way to optimize images and other assets for the web. Currently, it supports <span class="underline">.jpg</span>, <span class="underline">.png</span>, <span class="underline">.svg</span> and <span class="underline">.gif</span> formats.
       </p>
 
-      <button type="button" name="button" onclick="window.open('https://github.com/ghosh/Crimp/releases/download/v0.1.0/Crimp-mac-0.1.0.zip')">
+
+      <button type="button" name="button" onclick="window.open('https://github.com/ghosh/Crimp/releases/download/v0.2.0/Crimp-mac-0.2.0.zip')">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
           <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/>
           <path fill="none" d="M0 0h24v24H0z"/>
@@ -38,7 +39,7 @@
         Download App
       </button>
 
-      <p><small>v0.1.0 Beta</small></p>
+      <p><small>v0.2.0 Beta</small></p>
 
     </main>
 
@@ -57,8 +58,30 @@
   </main>
 
   <aside class="aside">
-    <img src="images/image.png" srcset="images/image.png 1x, images/image@2x.png 2x" alt="Crimp mac app" width="412">
+
+      <div class="video">
+
+        <picture>
+          <source srcset="images/crimp.webp" type="image/webp">
+          <source srcset="images/crimp.png" type="image/jpeg">
+          <img src="images/crimp.png" alt="Crimp mac app" id="vidPlaceholder" width="300">
+        </picture>
+
+        <video width="300" id="crimpVideo" autoplay loop>
+            <source src="video/crimp.mp4" type="video/mp4">
+        </video>
+      </div>
+
   </aside>
+
+  <script>
+
+    var video = document.getElementById("crimpVideo");
+    video.onloadeddata = function() {
+      document.getElementById("vidPlaceholder").style.display='none';
+    };
+
+  </script>
 
 </body>
 </html>
