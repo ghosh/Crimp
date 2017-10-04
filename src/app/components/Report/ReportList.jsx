@@ -9,7 +9,7 @@ const List = styled.ul`
   list-style-type: none;
   background-color: #d8ddef;
   color: #4C4D6C;
-  height: 275px;
+  height: 283px;
   overflow-y: scroll;
   -webkit-overflow-scrolling: touch;
 `;
@@ -64,7 +64,7 @@ const ReportList = ({ files }) => (
     {Object.keys(files).map((key) => {
       const file = files[key];
       // const fileImgStyles = { backgroundImage: `url(${file.path})` }
-      const fileImgStyles = { backgroundImage: `url("${encodeURI(file.path)}")` }
+      const fileImgStyles = { backgroundImage: `url("${file.dataUri}")` }
       return (
         <ListItem key={key}>
           <FileImage style={fileImgStyles} />

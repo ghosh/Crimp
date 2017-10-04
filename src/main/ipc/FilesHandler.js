@@ -4,6 +4,7 @@ import plur from 'plur';
 import fs from 'fs-extra';
 import imagemin from 'imagemin';
 import prettyBytes from 'pretty-bytes';
+import { sync as DataURI } from 'datauri';
 import imageminJpegtran from 'imagemin-jpegtran';
 import imageminPngquant from 'imagemin-pngquant';
 import imageminGifsicle from 'imagemin-gifsicle';
@@ -40,6 +41,7 @@ export default class FilesHandler {
     return (minutes > 60000) ? `${minutes}m ${seconds}s` : `${seconds} seconds`;
   }
 
+
   async calculateDelta(originalSize, optimizedSize) {
     const saved = originalSize - optimizedSize;
     const percent = originalSize > 0 ? (saved / originalSize) * 100 : 0;
@@ -50,6 +52,7 @@ export default class FilesHandler {
 
     return { deltaPerct, deltaBytes };
   }
+
 
   async calculateTotDelta(totalOriginalSize, totalOptimizedSize) {
     const originalSize = totalOriginalSize.reduce( (acc, num) => acc + num );
@@ -80,7 +83,7 @@ export default class FilesHandler {
     // Runs file optimizations in parallel
     // Stackoverflow:- https://goo.gl/wGdkog
     await Promise.all(files.map(async (file, index) => {
-      const {status, originalSize, optimizedSize} = await this.optimizeFile(file);
+      const {dataUri, originalSize, optimizedSize} = await this.optimizeFile(file);
 
       totalOriginalSize.push(originalSize);
       totalOptimizedSize.push(optimizedSize);
@@ -89,6 +92,7 @@ export default class FilesHandler {
 
       fileData[index] = {};
       fileData[index]['path'] = file;
+      fileData[index]['dataUri'] = dataUri;
       fileData[index]['fileName'] = file.replace(/^.*[\\\/]/, '');
       fileData[index]['originalSize'] = prettyBytes(originalSize);
       fileData[index]['optimizedSize'] = prettyBytes(optimizedSize);
@@ -120,12 +124,14 @@ export default class FilesHandler {
    */
   async optimizeFile(path) {
     try {
+      const dataUri = await DataURI(path);
+
       const originalBuffer = await fs.readFile(path);
       const optimizedBuffer = await imagemin.buffer(originalBuffer, { plugins: imageMinPlugins });
       await fs.writeFile(path, optimizedBuffer);
 
       return {
-        status: true,
+        dataUri: dataUri,
         originalSize: originalBuffer.length,
         optimizedSize: optimizedBuffer.length
       }

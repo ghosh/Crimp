@@ -130,7 +130,7 @@ class App extends Component {
           ) : ''}
 
           {this.state.status === REPORTING ? (
-            <Button onClick={() => this.setState({ status: READY })} >
+            <Button onClick={() => this.setState({ status: READY, delta: null, files: null  })} >
               Reset
             </Button>
           ) : ''}

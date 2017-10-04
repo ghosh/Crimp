@@ -4,7 +4,7 @@ import styled, { keyframes } from 'styled-components';
 const StyledReport = styled.div`
   display: flex;
   flex-direction: column;
-  height: 336px;
+  height: 340px;
 `;
 
 const Report = ({ children }) => (

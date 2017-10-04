@@ -4,7 +4,7 @@ import styled, { keyframes } from 'styled-components';
 const StyledSummary = styled.div`
 	display: flex;
 	align-items: center;
-	height: 60px;
+	height: 55px;
 `;
 
 const Tick = styled.svg`
