@@ -70,7 +70,7 @@ const ReportList = ({ files }) => (
           <FileImage style={fileImgStyles} />
           <ListData>
             <FileName>{file.fileName}</FileName>
-            <FileSummary>{file.deltaBytes} saved,   ▼ {file.deltaPerct}%</FileSummary>
+            <FileSummary>{file.originalSize} → {file.optimizedSize},   ▼ {file.deltaPerct}%</FileSummary>
           </ListData>
         </ListItem>
       );

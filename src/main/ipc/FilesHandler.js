@@ -90,6 +90,8 @@ export default class FilesHandler {
       fileData[index] = {};
       fileData[index]['path'] = file;
       fileData[index]['fileName'] = file.replace(/^.*[\\\/]/, '');
+      fileData[index]['originalSize'] = prettyBytes(originalSize);
+      fileData[index]['optimizedSize'] = prettyBytes(optimizedSize);
       fileData[index]['deltaPerct'] = deltaPerct;
       fileData[index]['deltaBytes'] = deltaBytes;
     }));
