@@ -63,7 +63,7 @@
     "imagemin-svgo": "^5.2.2",
     "plur": "^2.1.2",
     "pretty-bytes": "^4.0.2",
-    "react": "^15.4.1",
+    "react": "^16.0.0",
     "react-dom": "^16.0.0",
     "react-dropzone": "^4.2.0",
     "react-hot-loader": "^3.0.0",
