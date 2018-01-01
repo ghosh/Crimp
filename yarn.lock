@@ -1639,15 +1639,15 @@ electron-download@^3.0.1:
     semver "^5.3.0"
     sumchecker "^1.2.0"
 
-electron-prebuilt-compile@1.7.9:
-  version "1.7.9"
-  resolved "https://registry.yarnpkg.com/electron-prebuilt-compile/-/electron-prebuilt-compile-1.7.9.tgz#1711edcbffb089b89e845d5024c8f90a618eb27d"
+electron-prebuilt-compile@1.8.1:
+  version "1.8.1"
+  resolved "https://registry.yarnpkg.com/electron-prebuilt-compile/-/electron-prebuilt-compile-1.8.1.tgz#8abca77d8f3262afdb535c36be93874bdbca6a0a"
   dependencies:
     babel-plugin-array-includes "^2.0.3"
     babel-plugin-transform-async-to-generator "^6.8.0"
     babel-preset-es2016-node5 "^1.1.2"
     babel-preset-react "^6.11.1"
-    electron "^1.7.9"
+    electron "1.8.1"
     electron-compile "*"
     electron-compilers "*"
     yargs "^6.6.0"
@@ -1656,7 +1656,7 @@ electron-to-chromium@^1.2.7, electron-to-chromium@^1.3.18:
   version "1.3.21"
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.21.tgz#a967ebdcfe8ed0083fc244d1894022a8e8113ea2"
 
-electron@^1.7.9:
+electron@1.8.1:
   version "1.8.1"
   resolved "https://registry.yarnpkg.com/electron/-/electron-1.8.1.tgz#19b6f39f2013e204a91a60bc3086dc7a4a07ed88"
   dependencies:

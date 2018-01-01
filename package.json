@@ -71,6 +71,6 @@
   },
   "devDependencies": {
     "babel-plugin-transform-es2015-classes": "^6.24.1",
-    "electron-prebuilt-compile": "1.7.9"
+    "electron-prebuilt-compile": "1.8.1"
   }
 }
