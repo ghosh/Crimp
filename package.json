@@ -55,7 +55,7 @@
   "dependencies": {
     "datauri": "^1.0.5",
     "electron-compile": "^6.4.2",
-    "fs-extra": "^4.0.2",
+    "fs-extra": "^5.0.0",
     "imagemin": "^5.3.1",
     "imagemin-gifsicle": "^5.2.0",
     "imagemin-jpegtran": "^5.0.2",
