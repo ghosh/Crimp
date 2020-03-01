@@ -61,7 +61,7 @@
     "imagemin-jpegtran": "^5.0.2",
     "imagemin-pngquant": "^5.0.1",
     "imagemin-svgo": "^6.0.0",
-    "plur": "^2.1.2",
+    "plur": "^4.0.0",
     "pretty-bytes": "^4.0.2",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
